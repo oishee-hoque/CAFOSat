@@ -1,0 +1,466 @@
+,OBJECTID_1,First_Name,Last_Name,Farm_Business_Name,Farm_Address,City,STATE,CAFO_TYPE,Animal__,NOI,Inactive,OID2,Lat,Long,Animals,NEAR_FID,NEAR_DIST,NEAR_X,NEAR_Y,Near_km,x,y,CAFO_UNIQUE_ID
+1,2,Andrew,Hudyma,Hudyma Farm,Woodyard Road,Farmington,DE,Poultry,"920,000",Yes,No,2,39,-76,"920,000",485,938.51,-75.56,38.85,0.94,-75.566,38.848,2
+2,4,Huong,Nguyen,State Line/Delmar,6767 Delmar Road,Delmar,DE,Poultry,"384,000",Yes,No,4,38,-76,"384,000",353,485.28,-75.62,38.47,0.49,-75.628,38.468,3
+3,5,Dennis,Tran,Bingo/My Side Chicks,14855 Josephs Road,Seaford,DE,Poultry,"384,000",Yes,No,5,39,-75,"384,000",538,362.39,-75.49,38.63,0.36,-75.492,38.628,4
+4,6,Gong Jin,Jiang,Ken's Poutry & Wingstar,33419 Samuel Hill Rd,Laurel,DE,Poultry,"325,000",Yes,No,6,39,-75,"325,000",393,"1,611.86",-75.44,38.52,1.61,-75.429,38.53,5
+5,7,Deosarran,Singh,HiWay Farm,28310 Sussex Farm,Laurel,DE,Poultry,"322,000",Yes,No,7,39,-76,"322,000",367,976.16,-75.52,38.6,0.98,-75.532,38.601,6
+6,8,Daniel,Heller,Flintrock Corporation,662 Rose Dale Lane,Dover,DE,Poultry,"308,000",Yes,No,8,39,-76,"308,000",809,242.57,-75.63,39.2,0.24,-75.631,39.199,7
+7,9,Ethan,Collins,"L.B. Collins Farm, LLC",24504 Blueberry Lane,Frankford,DE,Poultry,"288,000",Yes,No,9,39,-75,"288,000",155,"1,013.46",-75.32,38.53,1.01,-75.319,38.519,8
+8,10,Naheeda (Nina),Ghulam,"NNT Agri Systems, LLC",12514 N. Union Church Road,Ellendale,DE,Poultry,"288,000",Yes,No,10,39,-75,"288,000","1,017","1,323.78",-75.45,38.81,1.32,-75.462,38.811,9
+9,11,Dhanpaul (Butch),Raghunandan,Raghunandan Farm Inc.,32226 Curley Dr,Millsboro,DE,Poultry,"275,000",Yes,No,11,39,-75,"275,000",318,"1,294.37",-75.4,38.55,1.29,-75.413,38.543,10
+10,12,Andrew,Hudyma,Out of Town Farm,37424 Millsboro Hwy,Gumboro,DE,Poultry,"272,000",Yes,No,12,38,-75,"272,000",329,"2,135.15",-75.35,38.47,2.14,-75.375,38.471,11
+11,13,Mudassar,Iqbal,"Ghural Farm, LLC",4703 Milford Harrington Highway,Harrington,DE,Poultry,"270,600",Yes,No,13,39,-76,"270,600",962,617.48,-75.53,38.92,0.62,-75.53,38.928,12
+12,14,Shahzad,Ahmed,Bhatti Farm,4183 Sandtown Rd,Felton,DE,Poultry,"270,000",Yes,No,14,39,-76,"270,000",916,"2,138.39",-75.65,39.0,2.14,-75.648,39.019,13
+13,15,Hina Naz,Ahmed,"Ghural Farm, LLC",4703 Milford Harrington Highway,Harrington,DE,Poultry,"270,000",Yes,No,15,39,-76,"270,000",962,617.48,-75.53,38.92,0.62,-75.53,38.928,14
+14,16,David,Isaacs,DEI Farms Inc,114 S. White Cedar Dr,Miton,DE,Poultry,"248,000",Yes,No,16,39,-75,"248,000","1,138",566.45,-75.32,38.82,0.57,-75.322,38.826,15
+15,19,George,Carey,Carey Farms Inc,24625 Sugar Hill Rd,Milford,DE,Poultry,"230,000",Yes,No,19,39,-75,"230,000","1,135","3,918.22",-75.31,38.83,3.92,-75.312,38.86,16
+16,20,William,Skotta,Magnolia Manor,21090 Persimmon Tree Lane,Georgetown,DE,Poultry,"225,500",Yes,No,20,39,-75,"225,500",307,48.11,-75.38,38.62,0.05,-75.381,38.623,17
+17,21,Rob,Dvorak,"ISE America, Inc- Pullets 6",421 Warwick Rd,Middletown,DE,Poultry,"216,000",Yes,No,21,39,-76,"216,000","1,467","1,402.54",-75.75,39.42,1.4,-75.764,39.425,18
+18,22,Katharine,Parry,"Parry Poultry, LLC",1774 Slaughter Station Road,Hartly,DE,Poultry,"216,000",Yes,No,22,39,-76,"216,000",688,"1,688.45",-75.71,39.17,1.69,-75.71,39.155,19
+19,23,Daniel,Zencak,,14618 Staytonville Road,Lincoln,DE,Poultry,"216,000",Yes,No,23,39,-75,"216,000",568,320.48,-75.49,38.83,0.32,-75.489,38.832,20
+20,24,Duane,Severson,,4109 Vernon Rd,Harrington,DE,Poultry,"201,600",Yes,No,24,39,-76,"201,600",462,889.55,-75.67,38.89,0.89,-75.661,38.898,21
+21,25,Raymond,Robbins,Robbins Nest Farm,16900 Robins Nest Rd.,Ellendale,DE,Poultry,"200,000",Yes,No,25,39,-75,"200,000",548,"2,431.31",-75.45,38.75,2.43,-75.456,38.776,22
+22,27,Bruce,Clark,Woodedge Farm,13687 Seven Hickories Rd,Kenton,DE,Poultry,"196,000",Yes,No,27,39,-76,"196,000",707,"1,446.76",-75.63,39.23,1.45,-75.638,39.218,23
+23,28,Randy,Spence,Four Arrows,863 Central Church Rd,Dover,DE,Poultry,"195,600",Yes,No,28,39,-76,"195,600",808,737.57,-75.61,39.2,0.74,-75.61,39.191,24
+24,29,Ray,Tull,Woodpecker Farm,4101 Woodpecker Road,Seaford,DE,Poultry,"194,000",Yes,No,29,39,-76,"194,000",562,"1,700.30",-75.67,38.64,1.7,-75.68,38.622,25
+25,30,Vince,Pennell,Haven Farm,1961 Central Church Road,Dover,DE,Poultry,"191,700",Yes,No,30,39,-76,"191,700",808,305.42,-75.59,39.2,0.31,-75.59,39.196,26
+26,31,James,Bodine,Bodine Farm,1652 Hourglass Road,Hartly,DE,Poultry,"184,421",Yes,No,31,39,-76,"184,421",593,"1,484.06",-75.7,39.13,1.48,-75.706,39.145,27
+27,34,Charles,Carpenter,Carpenter,22727 East Piney Grove Rd,Georgetown,DE,Poultry,"180,000",Yes,No,34,39,-75,"180,000",305,108.63,-75.35,38.62,0.11,-75.347,38.622,28
+28,35,John,Vincent,Cedar Tree Farm,15423 Coastal Hwy,Milton,DE,Poultry,"178,000",Yes,No,35,39,-75,"178,000","1,128","1,501.98",-75.22,38.76,1.5,-75.221,38.773,29
+29,36,Frank,Robinson,Dead Broke Farms,1352 Vernon RD,Harrington,DE,Poultry,"176,000",Yes,No,36,39,-76,"176,000",461,"1,890.78",-75.71,38.91,1.89,-75.707,38.895,30
+30,37,Gordon,Ramey,T&T Farm Operations LLC,4778 Federalsburg Rd,Bridgeville,DE,Poultry,"175,000",Yes,No,37,39,-76,"175,000",517,571.46,-75.66,38.71,0.57,-75.658,38.712,31
+31,38,Leroy C. (Lee),Collins,,21516 Shell Station Rd,Frankford,DE,Poultry,"170,000",Yes,No,38,38,-75,"170,000",330,"2,022.04",-75.37,38.5,2.02,-75.378,38.482,32
+32,39,Calvin,Musser,,32506 Bi State Blvd,Laurel,DE,Poultry,"170,000",Yes,No,39,39,-76,"170,000",344,401.90,-75.57,38.54,0.4,-75.571,38.54,33
+33,40,Laura,Winkler,Double Run LLC,3827Carpenter Bridge Rd,Felton,DE,Poultry,"169,000",Yes,No,40,39,-76,"169,000",929,"1,024.63",-75.51,38.96,1.02,-75.516,38.969,34
+34,41,Young,Park,Evergreen Farm LLC,31590 Mt Pleasant Rd,Laurel,DE,Poultry,"165,800",Yes,No,41,39,-76,"165,800",349,477.36,-75.63,38.55,0.48,-75.638,38.552,35
+35,42,Edward,Beachy,E&D Enterprises Inc,79 Blue Bird Dr,Hartly,DE,Poultry,"165,000",Yes,No,42,39,-76,"165,000",684,979.27,-75.7,39.17,0.98,-75.688,39.171,36
+36,43,Howaida,ElBaf,F&H Bless,33909 Evans Rd,Laurel,DE,Poultry,"165,000",Yes,No,43,39,-76,"165,000",407,174.17,-75.51,38.52,0.17,-75.507,38.519,37
+37,44,David,Elliott,,16051 Sycamore Road,Laurel,DE,Poultry,"165,000",Yes,No,44,39,-75,"165,000",366,244.64,-75.47,38.6,0.24,-75.471,38.596,38
+38,45,Stephen,Bennett,Bennboro Farm,24071 Bakerfield Rd,Milford,DE,Poultry,"160,000",Yes,No,45,39,-75,"160,000",998,"1,970.44",-75.35,38.88,1.97,-75.332,38.872,39
+39,46,Andrew,Phillips,New Country Farm,33228 Ellis Grove Road,Laurel,DE,Poultry,"160,000",Yes,No,46,39,-76,"160,000",349,"2,280.98",-75.64,38.54,2.28,-75.661,38.533,40
+40,47,Gerald,Dutton,Dutton Farms,24386 Godwin School Rd.,Millsboro,DE,Poultry,"159,000",Yes,No,47,39,-75,"159,000",90,317.40,-75.33,38.59,0.32,-75.325,38.585,41
+41,48,Marvin E & Tina,Hill,Hill Farms,1795 Milford-Harrington HWY,Milford,DE,Poultry,"157,500",Yes,No,48,39,-75,"157,500","1,118",377.22,-75.48,38.93,0.38,-75.473,38.928,42
+42,49,Tracy,Hill,Hillville Farms,34580 Susan Beach Rd,Laurel,DE,Poultry,"156,000",Yes,No,49,39,-76,"156,000",350,275.42,-75.63,38.51,0.28,-75.626,38.513,43
+43,50,Alva,Beachy,A&J Enterprizes,1298 Lockwood Chapel Rd,Hartly,DE,Poultry,"156,000",Yes,No,50,39,-76,"156,000",684,"1,736.14",-75.7,39.17,1.74,-75.68,39.182,44
+44,51,Georgie,Cartanza,Feather Wars/White Star,801 S. Halsey Road,Dover,DE,Poultry,"156,000",Yes,No,51,39,-76,"156,000",735,"1,085.77",-75.48,39.17,1.09,-75.467,39.172,45
+45,52,Brian,Warrington,Nelson's Legacy,695 Hunting Quarter Road,Houston,DE,Poultry,"156,000",Yes,No,52,39,-76,"156,000",961,"1,702.38",-75.51,38.88,1.7,-75.529,38.876,46
+46,53,Mark,Maloney,Mark & Kathy,7028 Whitelysburg Rd,Harrington,DE,Poultry,"155,200",Yes,No,53,39,-76,"155,200",431,"1,511.03",-75.62,38.94,1.51,-75.617,38.924,47
+47,54,Wesley,Betts,Clyde Betts & Sons,26361 Zion Church Rd,Milton,DE,Poultry,"155,000",Yes,No,54,39,-75,"155,000","1,099","1,528.71",-75.28,38.79,1.53,-75.29,38.803,48
+48,55,Joyce,Brittingham,Joyce and Gary's Farm,21156 Shell Station RD,Frankford,DE,Poultry,"153,700",Yes,No,55,38,-75,"153,700",330,"2,937.51",-75.37,38.5,2.94,-75.389,38.476,49
+49,56,Marshall,Anthony,,2173 Fox Hunter Rd,Harrington,DE,Poultry,"152,600",Yes,No,56,39,-76,"152,600",429,"1,644.47",-75.64,38.92,1.64,-75.658,38.923,50
+50,57,Kenneth B,Daisey,,34584 Lynch Road,Millsboro,DE,Poultry,"152,000",Yes,No,57,39,-75,"152,000",316,94.46,-75.35,38.51,0.09,-75.351,38.509,51
+51,58,Virgil (Jamie) & Christi,Joseph,,2446 Dublin Hill Road,Bridgeville,DE,Poultry,"151,778",Yes,No,58,39,-76,"151,778",467,"1,099.97",-75.71,38.73,1.1,-75.707,38.736,52
+52,59,Samuel,Dulin,Dulin Bros,938 Blackiston Church Rd,Clayton,DE,Poultry,"150,000",Yes,No,59,39,-76,"150,000",676,842.53,-75.73,39.25,0.84,-75.725,39.25,53
+53,60,Brandon,Hammond,,34381 Millsboro Highway,Millsboro,DE,Poultry,"150,000",Yes,No,60,39,-75,"150,000",316,494.87,-75.36,38.51,0.49,-75.357,38.517,54
+54,61,Raymond,Akbar,Abby's Farm,4797 John Cooper Road,Laurel,DE,Poultry,"150,000",Yes,No,61,39,-76,"150,000",350,"2,807.70",-75.63,38.51,2.81,-75.662,38.504,55
+55,62,Diane,Brooks,Isbrook Farms Inc.,22644 Milton Ellendale Hwy,Milton,DE,Poultry,"145,000",Yes,No,62,39,-75,"145,000","1,121","1,332.83",-75.33,38.78,1.33,-75.34,38.787,56
+56,63,Jimmy & Caryl,Warren,Cattail Branch,2663 Cattail Branch Road,Harrington,DE,Poultry,"144,000",Yes,No,63,39,-76,"144,000",470,160.89,-75.69,38.86,0.16,-75.685,38.864,57
+57,64,Brian,Kunkowski,,17272 Phillips Hill Road,Laurel,DE,Poultry,"144,000",Yes,No,64,39,-75,"144,000",381,110.73,-75.45,38.55,0.11,-75.448,38.552,58
+58,66,Nancy,Moore,Chicken House Lane LLc,41 Chicken House Lane,Clayton,DE,Poultry,"142,000",Yes,No,66,39,-76,"142,000",677,"1,252.21",-75.73,39.26,1.25,-75.736,39.269,59
+59,67,Jim,Moore,Sugar Stick Farm,2123 Sugar Stick Rd,Harrington,DE,Poultry,"142,000",Yes,No,67,39,-76,"142,000",658,"2,171.07",-75.69,38.97,2.17,-75.669,38.961,60
+60,68,Paul,Baker,Baker's Acres,26073 Hidden Acres Ln,Millsboro,DE,Poultry,"140,680",Yes,No,68,39,-75,"140,680",274,"1,316.16",-75.31,38.63,1.32,-75.299,38.636,61
+61,69,Norris,West,Phyllis West & Kevin West,11442 Sycamore Rd,Laurel,DE,Poultry,"140,000",Yes,No,69,39,-76,"140,000",405,"1,049.94",-75.54,38.57,1.05,-75.548,38.573,62
+62,70,Edward,Nechay,Nechay Farms,1062 Sandtown Rd,Felton,DE,Poultry,"140,000",Yes,No,70,39,-76,"140,000",653,"1,578.38",-75.68,39.03,1.58,-75.701,39.022,63
+63,71,Bruce,Daisey,,34907 Lynch Rd,Millsboro,DE,Poultry,"140,000",Yes,No,71,39,-75,"140,000",316,245.36,-75.35,38.5,0.25,-75.349,38.501,64
+64,72,Jau,Wang,Watson Rd Farm,5246 Watson Rd,Laurel,DE,Poultry,"140,000",Yes,No,72,39,-76,"140,000",349,"1,903.50",-75.64,38.54,1.9,-75.659,38.539,65
+65,74,Allan,Austin,Austin Farms,W Robbins & Maple Branch,Georgetown,DE,Poultry,"140,000",Yes,No,74,39,-75,"140,000",548,831.97,-75.45,38.75,0.83,-75.447,38.759,66
+66,75,Martin,O'Neal,Fred O'Neal & Sons Inc.,28798 O'Neals Rd,Seaford,DE,Poultry,"138,000",Yes,No,75,39,-76,"138,000",6,"1,109.59",-75.61,38.6,1.11,-75.608,38.588,67
+67,76,Lewis Rudy,Atkins,Natures Way Farm/Full Draw Farm,30472 Fire Tower RD,Laurel,DE,Poultry,"138,000",Yes,No,76,39,-76,"138,000",405,386.43,-75.54,38.56,0.39,-75.544,38.564,68
+68,77,Keith,Coulbourne,,28206 Seaford Rd,Laurel,DE,Poultry,"136,000",Yes,No,77,39,-76,"136,000",6,246.68,-75.59,38.6,0.25,-75.593,38.599,69
+69,78,Edward C,Warnick,,14033 Sawmill Road,Greenwood,DE,Poultry,"136,000",Yes,No,78,39,-76,"136,000",483,"2,181.20",-75.58,38.8,2.18,-75.557,38.797,70
+70,79,Fred,Bennett,Bennett Farms Inc,24139 Sugar Hill Rd,Milford,DE,Poultry,"135,000",Yes,No,79,39,-75,"135,000",998,"2,327.13",-75.35,38.88,2.33,-75.333,38.864,71
+71,80,Glenn,Sharp,Pleasant Cove Farm,10424 Shawnee Rd,Harrington,DE,Poultry,"134,400",Yes,No,80,39,-76,"134,400",961,589.94,-75.52,38.85,0.59,-75.524,38.848,72
+72,81,John,Reed,John&Mary's Peaceful Haven,18230 Hastings Mill Rd,Bridgeville,DE,Poultry,"134,400",Yes,No,81,39,-76,"134,400",467,"1,411.40",-75.7,38.73,1.41,-75.693,38.737,73
+73,82,Daniel,Dickerson,,316 Bloomfield Drive,Harrington,DE,Poultry,"134,400",Yes,No,82,39,-76,"134,400",888,"1,014.08",-75.53,38.95,1.01,-75.517,38.944,74
+74,83,Gregory,Showell,Gregory Showell Farm,36144 Camp Barnes Rd,Frankford,DE,Poultry,"134,000",Yes,No,83,39,-75,"134,000",182,"1,164.82",-75.12,38.51,1.16,-75.123,38.505,75
+75,84,Rick,Moore,"REM Farms, LLC.",Amore Drive. Lot 1,Laurel,DE,Poultry,"134,000",Yes,No,84,39,-76,"134,000",349,"2,276.76",-75.63,38.52,2.28,-75.658,38.527,76
+76,85,Shi Xun,Zheng,Golden Pheasant,12635 Redden Road,Bridgeville,DE,Poultry,"134,000",Yes,No,85,39,-76,"134,000",549,"2,201.42",-75.48,38.75,2.2,-75.5,38.756,77
+77,86,Ken,Wilkins Jr,,Burnite Mill & Hopkins Cemetary,Felton,DE,Poultry,"133,600",Yes,No,86,39,-76,"133,600",878,435.20,-75.63,39.0,0.44,-75.621,39.002,78
+78,87,Jessica,Smith,,12964 Whitesville Road,Delmar,DE,Poultry,"133,500",Yes,No,87,38,-76,"133,500",387,337.51,-75.51,38.5,0.34,-75.509,38.494,79
+79,88,John,Carter,Milligan Farm,4192 Rabbit Run Road,Bridgeville,DE,Poultry,"132,840",Yes,No,88,39,-76,"132,840",467,"1,065.59",-75.69,38.72,1.07,-75.68,38.729,80
+80,89,John,Carter,Lloyd Farm,5065 Baker Road,Bridgeville,DE,Poultry,"132,840",Yes,No,89,39,-76,"132,840",518,638.87,-75.65,38.71,0.64,-75.651,38.702,81
+81,90,John,Carter,Higgins Farm,2662 Dublin Hill Road,Bridgeville,DE,Poultry,"132,840",Yes,No,90,39,-76,"132,840",467,"1,550.42",-75.7,38.73,1.55,-75.699,38.74,82
+82,91,John,Carter,Hill Farm,22649 Bloxom School Road,Seaford,DE,Poultry,"132,840",Yes,No,91,39,-76,"132,840",560,197.33,-75.66,38.67,0.2,-75.666,38.674,83
+83,92,Ralph & Kevin,Fry,R & C Fry Farm LP,5699 Griffith Lake Drive,Milford,DE,Poultry,"132,000",Yes,No,92,39,-75,"132,000",965,244.54,-75.46,38.91,0.24,-75.466,38.906,84
+84,94,Keith,Jones,"Ardella Farms, LLC.",35534 Kings Crossing Road,Millsboro,DE,Poultry,"132,000",Yes,No,94,38,-75,"132,000",330,"2,763.64",-75.37,38.5,2.76,-75.405,38.499,85
+85,95,Travis,Ralph,,36037 Robin Hood Road,Delmar,DE,Poultry,"131,052",Yes,No,95,38,-76,"131,052",346,852.99,-75.52,38.5,0.85,-75.526,38.493,86
+86,96,Jed,James,,18066 Asketum Branch Rd,Georgetown,DE,Poultry,"130,000",Yes,No,96,39,-75,"130,000",300,"1,839.05",-75.42,38.61,1.84,-75.438,38.604,87
+87,97,"Alvin """"Troy""""",Rogers,,P.O. Box 508,Georgetown,DE,Poultry,"130,000",Yes,No,97,39,-75,"130,000",305,286.68,-75.39,38.63,0.29,-75.392,38.627,88
+88,98,Jerry,Dukes,Lambden/Home,14052 Dukes Farm Rd,Laurel,DE,Poultry,"130,000",Yes,No,98,39,-76,"130,000",367,949.06,-75.52,38.6,0.95,-75.507,38.605,89
+89,99,Keith,Gardner,Keith Gardner,33128 Shockley Rd,Laurel,DE,Poultry,"129,000",Yes,No,99,39,-76,"129,000",489,"2,851.01",-75.69,38.56,2.85,-75.677,38.533,90
+90,100,Donna,Smith,Fords Corner Farm,2514 Fords Corner Rd,Hartly,DE,Poultry,"129,000",Yes,No,100,39,-76,"129,000",683,"1,065.63",-75.72,39.18,1.07,-75.711,39.188,91
+91,101,Ken & Tiffany,Dudley,Ken & Tiffany Dudley,1589 Holletts Corner Road,Clayton,DE,Poultry,"129,000",Yes,No,101,39,-76,"129,000",670,"1,738.02",-75.75,39.3,1.74,-75.749,39.283,92
+92,102,Dennis,Chorman,Dennis Chorman,28118 Washington St,Millsboro,DE,Poultry,"127,000",Yes,No,102,39,-75,"127,000",125,527.63,-75.3,38.6,0.53,-75.29,38.605,93
+93,103,Earl,Loockerman,"Full House Lane, LLC",14867 Blanchard Road,Bridgeville,DE,Poultry,"127,000",Yes,No,103,39,-76,"127,000",552,"2,734.20",-75.65,38.76,2.73,-75.631,38.783,94
+94,104,Beth,Lewis,Horsin Around,31236 Christ Church Road,Laurel,DE,Poultry,"126,300",Yes,No,104,39,-76,"126,300",372,369.95,-75.54,38.56,0.37,-75.538,38.558,95
+95,105,Christopher,Wyatt,Cattail Branch Farm,3569 Cattail Branch Rd,Harrington,DE,Poultry,"126,000",Yes,No,105,39,-76,"126,000",470,511.31,-75.69,38.87,0.51,-75.684,38.87,96
+96,106,Joseph,Bauer,Bauer Poultry Farms,396 Hayfield Rd,Harrington,DE,Poultry,"125,600",Yes,No,106,39,-76,"125,600",658,"1,320.12",-75.69,38.97,1.32,-75.677,38.966,97
+97,108,Michael,Noffsinger,Noffsinger Farms,203 Wolfpit Ridge Rd,Harrington,DE,Poultry,"122,000",Yes,No,108,39,-76,"122,000",431,"1,217.32",-75.63,38.93,1.22,-75.648,38.934,98
+98,109,Ronald & Scott,Webb,Ronald & Scott Webb Farm,308 Todds Chapel Rd,Greenwood,DE,Poultry,"122,000",Yes,No,109,39,-76,"122,000",424,"1,332.24",-75.68,38.84,1.33,-75.67,38.836,99
+99,110,John,Carter,Woodland Farm,4578 Woodland Ferry Road,Seaford,DE,Poultry,"121,195",Yes,No,110,39,-76,"121,195",494,"1,368.43",-75.66,38.6,1.37,-75.67,38.608,100
+100,111,Jeff,Alexander,Cabin Ridge Farms,267 Cabin ridge Road,Felton,DE,Poultry,"120,000",Yes,No,111,39,-76,"120,000",654,685.07,-75.68,39.02,0.69,-75.674,39.025,101
+101,112,Matthew,Webber,Webber Farms,3652 Sudlersville Rd,Clayton,DE,Poultry,"120,000",Yes,No,112,39,-76,"120,000",711,"1,202.31",-75.68,39.21,1.2,-75.695,39.213,102
+102,113,Tejpartap,Ramnath,,13469 Wolf Rd,Greenwood,DE,Poultry,"120,000",Yes,No,113,39,-76,"120,000",571,963.44,-75.51,38.81,0.96,-75.522,38.804,103
+103,114,Ki Won,Kang,Kiwons Kang's Farm,12834 Taylor Mill Road,Laurel,DE,Poultry,"120,000",Yes,No,114,39,-76,"120,000",363,126.11,-75.52,38.59,0.13,-75.519,38.585,104
+104,115,Scott,Wharton,S&T Farm Inc,20529 Laurel Rd,Millsboro,DE,Poultry,"120,000",Yes,No,115,39,-75,"120,000",317,710.91,-75.38,38.54,0.71,-75.387,38.531,105
+105,116,"William """"Robert""""",Otwell,Rut & Strut Farm,15141 Johnson Road,Laurel,DE,Poultry,"120,000",Yes,No,116,39,-75,"120,000",383,666.03,-75.48,38.55,0.67,-75.473,38.558,106
+106,117,Carol & James,Atkinson,,1911 Prospect Church Rd,Harrington,DE,Poultry,"120,000",Yes,No,117,39,-76,"120,000",457,379.02,-75.63,38.89,0.38,-75.634,38.883,107
+107,118,Lloyd,Beharry,,24117 Parker Road,Georgetown,DE,Poultry,"120,000",Yes,No,118,39,-75,"120,000",284,"1,560.67",-75.39,38.67,1.56,-75.392,38.655,108
+108,120,Aaron,Thompson,Locust Lane Hartly LLC,644 Bryants Corner Rd,Hartly,DE,Poultry,"119,000",Yes,No,120,39,-76,"119,000",592,912.30,-75.7,39.13,0.91,-75.692,39.125,109
+109,121,Brian,Lilly,Lilly Family Farm,1612 Pearsons Corner Rd,Hartly,DE,Poultry,"118,000",Yes,No,121,39,-76,"118,000",595,551.38,-75.65,39.15,0.55,-75.645,39.145,110
+110,122,Roland Jr,Hill,Love Creek Farm,32740 Webbs Landing Rd,Lewes,DE,Poultry,"117,000",Yes,No,122,39,-75,"117,000",44,475.88,-75.17,38.71,0.48,-75.176,38.705,111
+111,123,Jim,Nguyen,Paradise Farm,21711 Paradise Road,Georgetown,DE,Poultry,"117,000",Yes,No,123,39,-75,"117,000",307,102.56,-75.38,38.62,0.1,-75.378,38.617,112
+112,124,Hansraj,Singh,Dan & Kevin Farm,33464 Gordy Road,Laurel,DE,Poultry,"117,000",Yes,No,124,39,-76,"117,000",345,691.20,-75.54,38.52,0.69,-75.536,38.524,113
+113,125,Thomas,Phillips,Phillips Farm,20952 Shell Station Rd,Frankford,DE,Poultry,"115,000",Yes,No,125,38,-75,"115,000",329,"3,016.46",-75.35,38.47,3.02,-75.386,38.473,114
+114,126,Brian,Lilly,,5829 Mud Mill Road,Camden,DE,Poultry,"113,700",Yes,No,126,39,-76,"113,700",612,"1,097.41",-75.69,39.08,1.1,-75.692,39.066,115
+115,127,Brian,McCahill,Brian McCahill/Drumduff,34161 McCahill's Place,Frankford,DE,Poultry,"112,000",Yes,No,127,39,-75,"112,000",150,"1,320.46",-75.3,38.53,1.32,-75.295,38.52,116
+116,128,Orville (Skip),Syester III,Last Stop Farm & Bass Farm,909 Beebe Rd,Harrington,DE,Poultry,"112,000",Yes,No,128,39,-76,"112,000",485,699.97,-75.55,38.86,0.7,-75.545,38.866,117
+117,129,John,Carter,Hastings Farm,31279 Dogwood Lane,Laurel,DE,Poultry,"111,120",Yes,No,129,39,-76,"111,120",356,570.68,-75.63,38.56,0.57,-75.624,38.556,118
+118,130,John,Carter,Portsville Farm,8012 Portsville Road,Laurel,DE,Poultry,"111,100",Yes,No,130,39,-76,"111,100",341,75.92,-75.61,38.55,0.08,-75.612,38.555,119
+119,131,Thomas E.,Webb,Tubby's Home Farm,7343 Big Stone Beach Rd,Milford,DE,Poultry,"110,800",Yes,No,131,39,-75,"110,800",969,611.98,-75.43,38.94,0.61,-75.422,38.946,120
+120,132,Willis,Miller,Miller Family Farm,323 Beagle Club Rd,Felton,DE,Poultry,"110,000",Yes,No,132,39,-76,"110,000",878,"1,545.05",-75.62,39.01,1.55,-75.629,39.02,121
+121,133,Myong Nak,Yim,Myong Farm,5542 Watson Rd,Laurel,DE,Poultry,"110,000",Yes,No,133,39,-76,"110,000",349,"1,271.86",-75.64,38.54,1.27,-75.65,38.535,122
+122,134,John,Sapp,Birds of a Feather,6089 Burnite Mill Road,Felton,DE,Poultry,"110,000",Yes,No,134,39,-76,"110,000",916,286.51,-75.64,39.0,0.29,-75.64,38.998,123
+123,135,Brian,Meisenholder,Custom Wood Chicks,35015 Old Stage Road,Delmar,DE,Poultry,"109,200",Yes,No,135,38,-76,"109,200",346,"1,581.91",-75.52,38.5,1.58,-75.538,38.495,124
+124,136,Janki,Ramnath,Eshwar Farm,27718 O'Neals Rd,Seaford,DE,Poultry,"108,000",Yes,No,136,39,-76,"108,000",6,"1,263.31",-75.59,38.6,1.26,-75.587,38.609,125
+125,137,Burleson,Susan,"Under His Wings, LLC.",2131 Anderson Road,Greenwood,DE,Poultry,"108,000",Yes,No,137,39,-76,"108,000",416,"1,512.80",-75.7,38.78,1.51,-75.717,38.792,126
+126,138,Michael,Hitchens,MikeHitchens/Mayberry,12581 Taylor Mill Rd,Laurel,DE,Poultry,"107,700",Yes,No,138,39,-76,"107,700",363,440.17,-75.52,38.59,0.44,-75.524,38.589,127
+127,139,Shirley & John,Travers,Fresh Country Air Farm,5351 Farm Lane,Greenwood,DE,Poultry,"107,700",Yes,No,139,39,-76,"107,700",422,"2,671.05",-75.69,38.83,2.67,-75.657,38.823,128
+128,140,George,Moore,Big Oak Farm Inc,9714 Old Furnace Road,Seaford,DE,Poultry,"107,200",Yes,No,140,39,-76,"107,200",578,649.90,-75.6,38.69,0.65,-75.59,38.685,129
+129,141,Fred,West,F&F Farms LLC,31800 West Rd,Frankford,DE,Poultry,"107,000",Yes,No,141,39,-75,"107,000",86,"1,082.06",-75.17,38.55,1.08,-75.18,38.548,130
+130,142,Dasarat,Deonarine,Yudesh & Tushanie,24296 E. Trap Pond Road,Georgetown,DE,Poultry,"105,000",Yes,No,142,39,-75,"105,000",301,"1,269.10",-75.41,38.64,1.27,-75.414,38.652,131
+131,143,Joshua,Slaubaugh,Chicken Little,8991 Shawnee Rd,Greenwood,DE,Poultry,"105,000",Yes,No,143,39,-75,"105,000",961,677.99,-75.5,38.86,0.68,-75.497,38.865,132
+132,144,Robbie,Givens,Crossroads Farm,12201Sycamore Rd,Laurel,DE,Poultry,"105,000",Yes,No,144,39,-76,"105,000",405,451.77,-75.53,38.58,0.45,-75.536,38.577,133
+133,145,Jeremy,Sapp,,319 Tappahanna Bridge Road,Hartly,DE,Poultry,"105,000",Yes,No,145,39,-76,"105,000",588,210.91,-75.71,39.12,0.21,-75.712,39.115,134
+134,146,John,Carter,Broadcreek Farm,7221 Portsville Road,Laurel,DE,Poultry,"104,070",Yes,No,146,39,-76,"104,070",341,217.65,-75.62,38.56,0.22,-75.622,38.561,135
+135,147,Lambert,Slaubaugh,Berts Poultry/Slaubaugh Farm,13055 Judy Rd,Greenwood,DE,Poultry,"104,000",Yes,No,147,39,-76,"104,000",571,"1,350.30",-75.51,38.81,1.35,-75.527,38.809,136
+136,148,Christopher,Long,Windy Day Farms,5045 Mud Mill Road,Camden-Wyoming,DE,Poultry,"103,000",Yes,No,148,39,-76,"103,000",614,933.15,-75.66,39.08,0.93,-75.658,39.074,137
+137,149,Kathy,Willms,JKs Two Paws,18137 Hastings Mill Rd,Bridgeville,DE,Poultry,"100,800",Yes,No,149,39,-76,"100,800",467,"1,279.27",-75.7,38.73,1.28,-75.693,38.736,138
+138,150,Blair,Shockley,,32864 Hitch Pond Road,Laurel,DE,Poultry,"100,800",Yes,No,150,39,-76,"100,800",379,130.18,-75.5,38.54,0.13,-75.504,38.534,139
+139,151,Daniel P.,Weaver,,729 Dinahs Corner Rd,Dover,DE,Poultry,"100,500",Yes,No,151,39,-76,"100,500",810,292.86,-75.66,39.19,0.29,-75.656,39.19,140
+140,152,Carol,Johnson,Loockerman Farms Inc,14564 Blanchard RD,Bridgeville,DE,Poultry,"100,000",Yes,No,152,39,-76,"100,000",552,"2,249.96",-75.65,38.76,2.25,-75.644,38.783,141
+141,153,Roopnarine,Girdhari,Roop Farm,24310 E. Trap Pond Road,Georgetown,DE,Poultry,"100,000",Yes,No,153,39,-75,"100,000",301,500.16,-75.41,38.64,0.5,-75.416,38.645,142
+142,154,Young,Kim,Young's Farm,4670 John Cooper Rd,Laurel,DE,Poultry,"100,000",Yes,No,154,39,-76,"100,000",350,"3,336.09",-75.63,38.51,3.34,-75.668,38.505,143
+143,155,Aaron,Wharton,Aaron P Wharton,36225 Jones Church Rd,Frankford,DE,Poultry,"100,000",Yes,No,155,38,-75,"100,000",330,"1,877.51",-75.37,38.5,1.88,-75.39,38.489,144
+144,156,Edward,McDowell,Ed McDowell Farm,5052 Farm Lane,Greenwood,DE,Poultry,"100,000",Yes,No,156,39,-76,"100,000",422,"1,715.80",-75.69,38.83,1.72,-75.667,38.829,145
+145,157,Nasir,Mahmood,Sardar Farm,38635 Millsboro Hwy,Millsboro,DE,Poultry,"100,000",Yes,No,157,38,-75,"100,000",312,"3,564.36",-75.35,38.46,3.56,-75.386,38.455,146
+146,158,David Steven,Killian,David Killian/Harry,20773 Rust Road,Harbeson,DE,Poultry,"100,000",Yes,No,158,39,-75,"100,000",32,790.88,-75.27,38.7,0.79,-75.28,38.699,147
+147,159,David,McRobie,McRobie Farm,6854 Delmar Rd,Delmar,DE,Poultry,"100,000",Yes,No,159,38,-76,"100,000",353,371.58,-75.62,38.47,0.37,-75.627,38.468,148
+148,160,Wan Ki,Yu,Cco Cco Farm,12271 Taylor Mill Rd,Laurel,DE,Poultry,"99,900",Yes,No,160,39,-76,"99,900",363,995.26,-75.53,38.58,1.0,-75.535,38.586,149
+149,161,Frank Jody,Brown,Handme Down Farm,2237 McDowell Rd,Bridgeville,DE,Poultry,"99,000",Yes,No,161,39,-76,"99,000",467,197.01,-75.71,38.73,0.2,-75.714,38.729,150
+150,162,Lonald,Watson,Country Roads Farm,9327 Clendaniel Pond Rd,Lincoln,DE,Poultry,"98,000",Yes,No,162,39,-75,"98,000","1,009",241.27,-75.4,38.86,0.24,-75.4,38.857,151
+151,163,Jinwoo,Kim,Emmanuel Farm,17448 Line Church Road,Delmar,DE,Poultry,"98,000",Yes,No,163,38,-75,"98,000",389,"2,018.15",-75.47,38.47,2.02,-75.453,38.464,152
+152,164,Robin,Choi,Airport Farm,33310 Horsey Church Rd,Laurel,DE,Poultry,"97,000",Yes,No,164,39,-76,"97,000",340,243.52,-75.6,38.53,0.24,-75.604,38.529,153
+153,165,Dallas,Glass,Bacon&Eggs&Ham&Cheese,548 Jebb Rd,Wyoming,DE,Poultry,"96,000",Yes,No,165,39,-76,"96,000",803,"1,412.52",-75.6,39.1,1.41,-75.613,39.102,154
+154,166,Allen,Jones,Allen Jones Farm,20106 Lowes Crossing Rd,Millsboro,DE,Poultry,"96,000",Yes,No,166,39,-75,"96,000",317,"2,802.88",-75.37,38.52,2.8,-75.403,38.516,155
+155,167,Sonny,Hamid,Hamid Family Farms,16428 Beaver Dam Rd,Ellendale,DE,Poultry,"96,000",Yes,No,167,39,-75,"96,000",549,"1,604.41",-75.47,38.75,1.6,-75.48,38.768,156
+156,168,Ryan,Maloney,3rd Generation Poultry,3232 Reynolds Rd,Milford,DE,Poultry,"96,000",Yes,No,168,39,-75,"96,000",865,"2,344.36",-75.44,39.01,2.34,-75.423,38.993,157
+157,169,Garrett,Sammons,RAG/GCS Farm,13077 Hunters Cove Rd,Greenwood,DE,Poultry,"95,700",Yes,No,169,39,-76,"95,700",570,521.86,-75.52,38.78,0.52,-75.521,38.787,158
+158,170,John,Carter,Trivitts Farm,20501 Wesley Church Road,Seaford,DE,Poultry,"94,965",Yes,No,170,39,-76,"94,965",518,975.89,-75.64,38.7,0.98,-75.629,38.703,159
+159,171,Vicente,Rosales,Meg & Jen Farm,34622 Hudson Rd,Laurel,DE,Poultry,"94,000",Yes,No,171,39,-75,"94,000",385,"1,690.20",-75.51,38.51,1.69,-75.487,38.511,160
+160,172,John (Jeff),Elliott,Jeff Elliott,13216 Oak Branch Rd,Delmar,DE,Poultry,"94,000",Yes,No,172,38,-76,"94,000",388,461.34,-75.51,38.48,0.46,-75.514,38.478,161
+161,174,"Orville """"Skip""""",Syester Jr,L& S and Home Farm,10946 Webb Farm Rd,Greenwood,DE,Poultry,"93,000",Yes,No,174,39,-75,"93,000",568,477.17,-75.49,38.83,0.48,-75.492,38.83,162
+162,175,Craig,Truitt,Roadside Farm,12900 Concord Rd,Seaford,DE,Poultry,"93,000",Yes,No,175,39,-76,"93,000",367,"1,603.49",-75.52,38.61,1.6,-75.514,38.622,163
+163,176,Herman,Matthes,Exotic Ranch Farm,30897 Iron Branch Rd,Dagsboro,DE,Poultry,"92,000",Yes,No,176,39,-75,"92,000",235,"1,382.15",-75.24,38.55,1.38,-75.246,38.562,164
+164,177,Wayne,Hendricks,Gingerbread/Mopar,2378 Ingram Branch Rd,Harrington,DE,Poultry,"92,000",Yes,No,177,39,-76,"92,000",650,214.08,-75.72,38.93,0.21,-75.718,38.927,165
+165,178,Sherman,Collins,RS Collins Farms Inc,38635 Millsboro Hwy,Millsboro,DE,Poultry,"91,400",Yes,No,178,38,-75,"91,400",312,"3,564.36",-75.35,38.46,3.56,-75.386,38.455,166
+166,179,Gregory,Lynch,Gregory Lynch,2577 Deer Valley Rd,Milford,DE,Poultry,"91,000",Yes,No,179,39,-75,"91,000",926,581.83,-75.5,38.96,0.58,-75.492,38.96,167
+167,180,David,Austin,White Rose,38449 Cooper Road,Millsboro,DE,Poultry,"90,000",Yes,No,180,38,-75,"90,000",312,"2,763.38",-75.35,38.46,2.76,-75.377,38.457,168
+168,181,Eddie,Montero,,14185 Oak Branch Road,Delmar,DE,Poultry,"90,000",Yes,No,181,38,-76,"90,000",388,423.82,-75.51,38.48,0.42,-75.502,38.478,169
+169,182,Richard,Dye,"Tenacity Farm, LLC",953 Whitemarsh Branch Rd,Harrington,DE,Poultry,"90,000",Yes,No,182,39,-76,"90,000",658,"1,345.68",-75.69,38.97,1.35,-75.673,38.969,170
+170,183,Kenneth,Miller,Mil-Chick Farms,17129 Atlanta Rd,Bridgeville,DE,Poultry,"90,000",Yes,No,183,39,-76,"90,000",434,"1,799.72",-75.72,38.77,1.8,-75.702,38.755,171
+171,184,Vicki/Mike,Daisey,Daisey Farms Inc,20479 Lowes Crossing,Millsboro,DE,Poultry,"90,000",Yes,No,184,39,-75,"90,000",330,"2,483.11",-75.37,38.5,2.48,-75.399,38.509,172
+172,185,Paul,Fleetwood,Coolbranch Farms Inc.,9533 Mt Zion Rd,Laurel,DE,Poultry,"90,000",Yes,No,185,39,-76,"90,000",7,272.15,-75.58,38.6,0.27,-75.584,38.6,173
+173,186,Clay,Maloney,,470 South Bowers Road,Milford,DE,Poultry,"90,000",Yes,No,186,39,-75,"90,000",863,"2,765.16",-75.41,39.02,2.77,-75.392,39.005,174
+174,187,Scott & Dayna,Strickland & Griffith,,1558 White Marsh Branch Rd,Harrington,DE,Poultry,"89,600",Yes,No,187,39,-76,"89,600",658,"1,533.87",-75.69,38.97,1.53,-75.67,38.978,175
+175,189,Donald,Collins,Collins Acres,22901 Mission Rd,Millsboro,DE,Poultry,"89,000",Yes,No,189,39,-75,"89,000",141,247.91,-75.35,38.54,0.25,-75.35,38.546,176
+176,190,Daniel,Wilkins,Daniel & J…? Wilkins,22531 Brairwood Rd,Georgetown,DE,Poultry,"88,800",Yes,No,190,39,-75,"88,800","1,116",494.91,-75.37,38.72,0.49,-75.365,38.712,177
+177,191,John & David,French,John French & Son,1220 Bennetts Pier Rd,Milford,DE,Poultry,"88,400",Yes,No,191,39,-75,"88,400",863,"4,098.07",-75.41,39.02,4.1,-75.372,39.005,178
+178,192,Deena,Dorey,Burnt Swamp Farm,24109 Cypress Rd,Frankford,DE,Poultry,"88,000",Yes,No,192,38,-75,"88,000",314,896.22,-75.34,38.47,0.9,-75.331,38.471,179
+179,193,Norman,Carr,Carr Farm,12294 Coachman Lane,Delmar,DE,Poultry,"88,000",Yes,No,193,38,-76,"88,000",388,"2,139.48",-75.51,38.48,2.14,-75.534,38.478,180
+180,194,Jeremy,Larimore,J & L Poultry,1066 Cattail Branch Rd,Greenwood,DE,Poultry,"88,000",Yes,No,194,39,-76,"88,000",447,161.32,-75.71,38.85,0.16,-75.707,38.849,181
+181,195,Carlos,Russell,Still Broke Farm,13444 Russell Rd,Bridgeville,DE,Poultry,"88,000",Yes,No,195,39,-76,"88,000",542,"1,121.58",-75.49,38.72,1.12,-75.507,38.723,182
+182,196,Ronald,Alimenti,Alimenti Farm,13625 Tull Rd,Greenwood,DE,Poultry,"88,000",Yes,No,196,39,-76,"88,000",419,"2,001.57",-75.69,38.8,2.0,-75.667,38.802,183
+183,197,Gene,Stowell,Stowell Inc/ Classic Farm,29200 Racoon Point,Millsboro,DE,Poultry,"88,000",Yes,No,197,39,-75,"88,000",93,358.76,-75.35,38.58,0.36,-75.35,38.582,184
+184,198,Theodore,Bobola,Bobola Farms,5268 Forrest Av,Dover,DE,Poultry,"88,000",Yes,No,198,39,-76,"88,000",595,"1,365.12",-75.65,39.15,1.37,-75.639,39.16,185
+185,199,Chris & Jessica,Walls,HaKuna Matata,12233 Line Road,Delmar,DE,Poultry,"88,000",Yes,No,199,38,-76,"88,000",388,"2,782.10",-75.51,38.47,2.78,-75.535,38.456,186
+186,200,Paul,DeFelice,Four D's & Gunsmoke Farms,19233 Lowes Road,Millsboro,DE,Poultry,"87,000",Yes,No,200,38,-75,"87,000",392,"4,909.53",-75.44,38.5,4.91,-75.414,38.463,187
+187,201,Evelyn,Prettyman,Sharps Mill Farm,16309 Sharps Mill Road,Greenwood,DE,Poultry,"87,000",Yes,No,201,39,-76,"87,000",569,"1,076.79",-75.54,38.76,1.08,-75.553,38.758,188
+188,202,Janet/Wayne,Carroll,W&J Farm,4720 Killens Pond Rd,Felton,DE,Poultry,"86,800",Yes,No,202,39,-76,"86,800",910,119.28,-75.54,38.99,0.12,-75.538,38.992,189
+189,203,Willard,Kauffman,Green Meadows Farm,1078 Hemping Rd,Harrington,DE,Poultry,"86,000",Yes,No,203,39,-76,"86,000",428,366.31,-75.65,38.9,0.37,-75.643,38.903,190
+190,204,Donna Henry,Harris,Broken Wing,34393 Hitch Pond Rd,Laurel,DE,Poultry,"86,000",Yes,No,204,39,-75,"86,000",385,821.69,-75.51,38.51,0.82,-75.497,38.511,191
+191,205,Greg,Ains,St. Isidore Farm,195 Black Stallion Rd,Townsend,DE,Poultry,"86,000",Yes,No,205,39,-76,"86,000","1,488","1,020.72",-75.7,39.33,1.02,-75.708,39.324,192
+192,207,Alyssa & Randall,Richard,A & R Farm,36144 Bayard Road,Frankford,DE,Poultry,"86,000",Yes,No,207,38,-75,"86,000",193,918.57,-75.13,38.48,0.92,-75.133,38.49,193
+193,208,Frank,Bunting,F.A. Bunting Farms,20460 Hasting Road,Frankford,DE,Poultry,"86,000",Yes,No,208,38,-75,"86,000",330,"2,811.90",-75.37,38.5,2.81,-75.39,38.478,194
+194,209,William,Otwell,Chick-a-More Farm,15141 Johnson Road,Laurel,DE,Poultry,"85,000",Yes,No,209,39,-75,"85,000",383,666.03,-75.48,38.55,0.67,-75.473,38.558,195
+195,210,Gerald,Brown,Gobbler Lane Farm LLC,3232 Thompsonville Rd,Milford,DE,Poultry,"85,000",Yes,No,210,39,-75,"85,000",942,"3,603.85",-75.38,38.96,3.6,-75.39,38.993,196
+196,211,Peter,Nau,Windfeather Farm,907- Cow Marsh Creek Rd,Camden-Wyoming,DE,Poultry,"85,000",Yes,No,211,39,-76,"85,000",637,830.55,-75.66,39.05,0.83,-75.659,39.061,197
+197,212,Woo,Lee,Midas Farm,28296 Dukes Lumber Rd,Laurel,DE,Poultry,"85,000",Yes,No,212,39,-76,"85,000",367,372.38,-75.51,38.6,0.37,-75.51,38.597,198
+198,213,Amber,Larimore,Ball Park Farm,152 Drapers Corner Rd,Harrington,DE,Poultry,"85,000",Yes,No,213,39,-76,"85,000",462,390.81,-75.67,38.89,0.39,-75.664,38.893,199
+199,214,Janet,Cook,,5177 Watson Road,Laurel,DE,Poultry,"85,000",Yes,No,214,39,-76,"85,000",349,"1,894.20",-75.64,38.54,1.89,-75.66,38.543,200
+200,215,Jack,Kohland,,1696 Skeeter Neck Rd,Frederica,DE,Poultry,"84,200",Yes,No,215,39,-75,"84,200",864,"2,279.21",-75.43,39.02,2.28,-75.441,39.037,201
+201,216,Edgar,Snyder,Brooks Snyder,8022 Hearns Pond Rd,Seaford,DE,Poultry,"84,000",Yes,No,216,39,-76,"84,000",579,183.01,-75.6,38.68,0.18,-75.604,38.681,202
+202,217,Jeffrey,Lynch,,36173 Roxana RD,Frankford,DE,Poultry,"84,000",Yes,No,217,38,-75,"84,000",197,126.32,-75.18,38.49,0.13,-75.177,38.492,203
+203,218,Eric,Pardee,,753 Yoder Drive,Hartly,DE,Poultry,"84,000",Yes,No,218,39,-76,"84,000",595,458.40,-75.65,39.15,0.46,-75.652,39.145,204
+204,219,Roger,Davis,Judith Farm,3517 Judith Rd,Dover,DE,Poultry,"83,000",Yes,No,219,39,-76,"83,000",810,"1,420.81",-75.66,39.19,1.42,-75.671,39.185,205
+205,220,Barry,Maloney,Maloney Family Farm,3277 Milford Neck Rd,Milford,DE,Poultry,"83,000",Yes,No,220,39,-75,"83,000",863,"3,147.56",-75.42,39.02,3.15,-75.393,38.999,206
+206,221,"Everett """"Chip""""",Lathbury,Lathbury Farms Inc,30756 Sandy Landing Road,Dagsboro,DE,Poultry,"83,000",Yes,No,221,39,-75,"83,000",231,762.73,-75.18,38.57,0.76,-75.175,38.564,207
+207,222,Brent,Willin,Goose Landing Farm,26394 Old Carriage Road,Seaford,DE,Poultry,"82,700",Yes,No,222,39,-76,"82,700",562,"1,377.18",-75.67,38.64,1.38,-75.68,38.626,208
+208,223,Charles,West,Cypress Tree Farms Inc,21140 Lone Cypress Rd,Millsboro,DE,Poultry,"82,000",Yes,No,223,39,-75,"82,000",317,759.01,-75.37,38.52,0.76,-75.379,38.527,209
+209,224,Linda,Brown,L&J Farms,4795 Milford Harrington Hwy,Harrington,DE,Poultry,"82,000",Yes,No,224,39,-76,"82,000",962,299.67,-75.52,38.92,0.3,-75.524,38.924,210
+210,225,Daniel,Messick,Daniel Messick,19126 Handy Rd,Bridgeville,DE,Poultry,"81,600",Yes,No,225,39,-76,"81,600",467,28.99,-75.7,38.73,0.03,-75.702,38.726,211
+211,226,Mohammed,Chaudhry,Shazad Farm,1458 Hickman Rd,Greenwood,DE,Poultry,"81,000",Yes,No,226,39,-76,"81,000",468,"1,009.16",-75.69,38.84,1.01,-75.702,38.834,212
+212,227,William,Powell,Powell Farms Inc,6476 Brownsville Rd,Harrington,DE,Poultry,"80,000",Yes,No,227,39,-76,"80,000",459,"1,322.59",-75.63,38.91,1.32,-75.618,38.919,213
+213,228,Louise/Daniel,Millman,Millman Farm,13566 Owens Rd,Greenwood,DE,Poultry,"80,000",Yes,No,228,39,-76,"80,000",571,"2,088.69",-75.51,38.8,2.09,-75.535,38.801,214
+214,230,Shane,Carter,Redden Acres,5061 Brownsville Rd,Harrington,DE,Poultry,"80,000",Yes,No,230,39,-76,"80,000",429,151.16,-75.64,38.92,0.15,-75.641,38.92,215
+215,232,Tom & Carolyn,Brinker,DLTF LLC,39001 Chicken Farm Rd,Selbyville,DE,Poultry,"80,000",Yes,No,232,38,-75,"80,000",194,"1,888.92",-75.15,38.47,1.89,-75.151,38.452,216
+216,233,Mark,Evans,Mark Evans Farm,34816 Pyle Ctr Rd,Frankford,DE,Poultry,"80,000",Yes,No,233,39,-75,"80,000",88,921.70,-75.19,38.51,0.92,-75.177,38.504,217
+217,234,Douglas,Hitchens,Collins Pond Farm,12757 Seashore Hwy,Georgetown,DE,Poultry,"80,000",Yes,No,234,39,-76,"80,000",541,347.88,-75.52,38.71,0.35,-75.517,38.708,218
+218,235,Theodore,Bobola,"Bobola Poultry, LLC",5268 Forrest Ave.,Dover,DE,Poultry,"80,000",Yes,No,235,39,-76,"80,000",595,"1,365.12",-75.65,39.15,1.37,-75.639,39.16,219
+219,236,Joseph,Calhoun,,32769 Calhoun Dr,Dagsboro,DE,Poultry,"79,000",Yes,No,236,39,-75,"79,000",242,69.70,-75.2,38.56,0.07,-75.195,38.561,220
+220,237,Robert,Masten,Mispillion Farms LLC,Torbert Road,Milford,DE,Poultry,"79,000",Yes,No,237,39,-75,"79,000",942,"2,345.26",-75.38,38.96,2.35,-75.397,38.979,221
+221,238,John,Carter,Johnson Farm,20963 Conrail Road,Seaford,DE,Poultry,"78,600",Yes,No,238,39,-76,"78,600",514,868.79,-75.62,38.69,0.87,-75.616,38.694,222
+222,239,Glen,Murphy,Wilderness Farm,22029 Hummingbird Rd,Ellendale,DE,Poultry,"78,000",Yes,No,239,39,-75,"78,000","1,139","1,324.66",-75.36,38.81,1.32,-75.368,38.821,223
+223,240,Brent,Willin,West Wind Farm,26394 Old Carriage Road,Seaford,DE,Poultry,"78,000",Yes,No,240,39,-76,"78,000",562,"1,377.18",-75.67,38.64,1.38,-75.68,38.626,224
+224,241,Barry,Mitchell,,34165 Swamp Road,Frankford,DE,Poultry,"78,000",Yes,No,241,39,-75,"78,000",254,937.87,-75.26,38.52,0.94,-75.265,38.518,225
+225,242,Matthew,Smith,Windy Acres,10562 Redden Road,Bridgeville,DE,Poultry,"78,000",Yes,No,242,39,-76,"78,000",479,473.21,-75.57,38.74,0.47,-75.571,38.744,226
+226,243,Timothy,Wright,Pintail & Teresa Wright Farm,34633 Columbia Rd,Delmar,DE,Poultry,"77,000",Yes,No,243,39,-76,"77,000",350,"4,011.54",-75.63,38.51,4.01,-75.676,38.505,227
+227,244,Gerald,Smith,G.P. Smith Farms,30816 Sandy Landing Rd,Dagsboro,DE,Poultry,"76,200",Yes,No,244,39,-75,"76,200",231,762.73,-75.18,38.57,0.76,-75.175,38.564,228
+228,245,Diana,Woodward,Woodward Farm,2730 Vernon Rd,Harrington,DE,Poultry,"75,700",Yes,No,245,39,-76,"75,700",472,915.52,-75.68,38.9,0.92,-75.682,38.889,229
+229,246,Ramashwar,George,AMSA Farm,2659 Dublin Hill Rd,Bridgeville,DE,Poultry,"75,600",Yes,No,246,39,-76,"75,600",467,"1,870.69",-75.7,38.73,1.87,-75.699,38.743,230
+230,247,Edward,Flood,,30361 Adams Road,Dagsboro,DE,Poultry,"75,000",Yes,No,247,39,-75,"75,000",230,753.71,-75.21,38.56,0.75,-75.213,38.57,231
+231,248,Nathaniel,Justice,Justice Farms,22438 Daisey Rd,Millsboro,DE,Poultry,"75,000",Yes,No,248,38,-75,"75,000",329,774.27,-75.35,38.48,0.77,-75.357,38.482,232
+232,249,Eric & Billie,Davenport,Davenport Farms,7901 Morgan Branch Drive,Seaford,DE,Poultry,"75,000",Yes,No,249,39,-76,"75,000",499,725.93,-75.62,38.63,0.73,-75.612,38.626,233
+233,250,Burton,Ockels,Burton & Sue Ockels Farm,8872 Ockels Dr,Seaford,DE,Poultry,"75,000",Yes,No,250,39,-76,"75,000",499,"2,038.04",-75.6,38.64,2.04,-75.591,38.62,234
+234,251,Alvin,Conaway,ABZ Farms Inc,20542 Hardscrabble Rd,Georgetown,DE,Poultry,"75,000",Yes,No,251,39,-75,"75,000",91,407.60,-75.38,38.6,0.41,-75.385,38.598,235
+235,252,James,Carpenter,James Carpenter & Sons Inc.,27113 Carpenter Farm Lane,Milton,DE,Poultry,"75,000",Yes,No,252,39,-75,"75,000","1,094",922.34,-75.27,38.74,0.92,-75.279,38.742,236
+236,253,William,Skotta,Skotta Farm,10292 Blacksmith Shop Rd,Greenwood,DE,Poultry,"75,000",Yes,No,253,39,-76,"75,000",961,"1,278.59",-75.52,38.85,1.28,-75.505,38.843,237
+237,254,Iris,McCabe,Iris McCabe,32378 Hickory Hill Rd,Millsboro,DE,Poultry,"74,000",Yes,No,254,39,-75,"74,000",140,365.66,-75.31,38.54,0.37,-75.308,38.541,238
+238,255,Jared L,Kauffman,Jared Kauffman,500 Two Mile Road,Harrington,DE,Poultry,"74,000",Yes,No,255,39,-76,"74,000",644,"2,236.67",-75.71,38.96,2.24,-75.697,38.947,239
+239,256,John,Carter,Spitzer Farm,6810 Hearns Pond Road,Seaford,DE,Poultry,"73,800",Yes,No,256,39,-76,"73,800",515,296.72,-75.63,38.69,0.3,-75.629,38.687,240
+240,257,Andrew,Hearn,ADH,8413 Bethel Road,Seaford,DE,Poultry,"73,200",Yes,No,257,39,-76,"73,200",6,"1,121.26",-75.6,38.6,1.12,-75.602,38.588,241
+241,258,Marc,DeFelice,Someday Farm,20427 Lowes Rd,Millsboro,DE,Poultry,"73,200",Yes,No,258,38,-75,"73,200",328,"3,908.02",-75.35,38.47,3.91,-75.393,38.461,242
+242,259,Robert,Wheatley,Robert Wheatley,8523 Bethel Rd,Seaford,DE,Poultry,"73,000",Yes,No,259,39,-76,"73,000",6,"1,383.98",-75.59,38.6,1.38,-75.598,38.585,243
+243,260,Ralph,Givens,Ralph Givens,27545 Johnson Rd,Seaford,DE,Poultry,"72,000",Yes,No,260,39,-76,"72,000",6,"1,284.90",-75.61,38.6,1.28,-75.611,38.61,244
+244,261,Stanley,Johnson,Hollyville Farm - Johnson Hertige Farm LLC,29529 John J. Williams Hwy,Millsboro,DE,Poultry,"72,000",Yes,No,261,39,-75,"72,000",261,693.18,-75.28,38.6,0.69,-75.277,38.601,245
+245,262,Martin/Donna,Ockels,D&M Farms LLC,27245 Murrock Dr,Seaford,DE,Poultry,"72,000",Yes,No,262,39,-76,"72,000",6,"1,886.44",-75.6,38.6,1.89,-75.591,38.615,246
+246,263,William,Lloyd,,827 Grygo Road,Marydel,DE,Poultry,"72,000",Yes,No,263,39,-76,"72,000",606,949.67,-75.74,39.1,0.95,-75.742,39.096,247
+247,264,Clay,Tatman,,12101 Tucker Road,Greenwood,DE,Poultry,"72,000",Yes,No,264,39,-76,"72,000",569,608.27,-75.54,38.77,0.61,-75.54,38.774,248
+248,265,Stephanie,Crisco,,19622 Crisco Lane,Bridgeville,DE,Poultry,"71,900",Yes,No,265,39,-76,"71,900",513,60.81,-75.62,38.72,0.06,-75.624,38.718,249
+249,266,Brad,Gehman,,15118 Blanchard Road,Bridgeville,DE,Poultry,"71,000",Yes,No,266,39,-76,"71,000",552,"2,338.28",-75.65,38.76,2.34,-75.629,38.777,250
+250,267,Harry (Bob),James,Robren Farm Inc,11625 County Seat Hwy,Laurel,DE,Poultry,"71,000",Yes,No,267,39,-76,"71,000",7,"1,049.41",-75.56,38.59,1.05,-75.548,38.586,251
+251,268,Edward,Jewell,,2185 Arthursville Road,Hartly,DE,Poultry,"70,800",Yes,No,268,39,-76,"70,800",688,"1,331.74",-75.71,39.17,1.33,-75.723,39.163,252
+253,270,Dennis,Hearn,Dennis Hearn Farm,8329 Bethel Rd,Seaford,DE,Poultry,"70,000",Yes,No,270,39,-76,"70,000",6,"1,416.40",-75.6,38.6,1.42,-75.604,38.585,254
+254,271,Richard,Kauffman,Richard Kauffman,7016 Vernon Rd,Harrington,DE,Poultry,"70,000",Yes,No,271,39,-76,"70,000",459,"1,674.94",-75.63,38.91,1.67,-75.608,38.905,255
+255,272,Sung,Chung,Jedidiah Farm,6470 Scotts Store Rd,Greenwood,DE,Poultry,"70,000",Yes,No,272,39,-76,"70,000",552,"3,329.15",-75.65,38.76,3.33,-75.634,38.791,256
+256,273,Bryden C.,Joseph,CLIQ,16450 County Seat Hwy,Georgetown,DE,Poultry,"70,000",Yes,No,273,39,-75,"70,000",540,417.99,-75.46,38.63,0.42,-75.459,38.633,257
+257,274,Mario,Rosales,RBG II Farm,12910 Old Furance Rd,Georgetown,DE,Poultry,"70,000",Yes,No,274,39,-76,"70,000",527,361.29,-75.51,38.67,0.36,-75.51,38.665,258
+258,275,Richard Craig,Davidson,Pepper Creek Farm,27852 Davidson Lane,Frankford,DE,Poultry,"70,000",Yes,No,275,39,-75,"70,000",255,703.05,-75.27,38.53,0.7,-75.266,38.521,259
+259,276,Robert Jr,Elliott,,14196 Pepperbox Rd,Delmar,DE,Poultry,"70,000",Yes,No,276,38,-76,"70,000",388,"1,021.15",-75.51,38.47,1.02,-75.503,38.46,260
+260,277,Scot,Givens,"C & S Farms, Inc",9486 Mt. Zion Road,Laurel,DE,Poultry,"70,000",Yes,No,277,39,-76,"70,000",7,63.64,-75.58,38.6,0.06,-75.583,38.598,261
+261,278,Clifton,Murray,Clifton&Dolores Murray,53 Lighthouse Rd,Selbyville,DE,Poultry,"70,000",Yes,No,278,38,-75,"70,000",157,220.64,-75.21,38.46,0.22,-75.213,38.456,262
+262,279,Jason,Ehst,,1399 West Denneys Road,Dover,DE,Poultry,"69,120",Yes,No,279,39,-76,"69,120",816,"1,426.71",-75.62,39.16,1.43,-75.626,39.177,263
+263,280,William,Leager,Woodsedge Farm,13600 Hewish Pkwy,Greenwood,DE,Poultry,"69,000",Yes,No,280,39,-76,"69,000",961,147.20,-75.51,38.86,0.15,-75.512,38.861,264
+264,281,Connie,Carmean,,34096 Gordy Rd,Laurel,DE,Poultry,"69,000",Yes,No,281,39,-76,"69,000",406,532.93,-75.51,38.52,0.53,-75.519,38.519,265
+265,282,Theresa,Whaley,Shorty's Place,27431 Beaver Dam Branch Rd,Laurel,DE,Poultry,"68,800",Yes,No,282,39,-75,"68,800",365,623.98,-75.48,38.6,0.62,-75.482,38.605,266
+266,283,Leroy J,Collins,Elizabeth Collins Farm,20543 Whitesville Rd,Millsboro,DE,Poultry,"68,000",Yes,No,283,38,-75,"68,000",329,"3,225.76",-75.35,38.47,3.23,-75.387,38.467,267
+267,284,Ronald/Saralee,Wharton,Saralee Farm,20344 Laurel Rd,Millsboro,DE,Poultry,"67,600",Yes,No,284,39,-75,"67,600",317,"1,288.95",-75.39,38.54,1.29,-75.393,38.528,268
+268,285,Chris,Kirk,,12082 Mirey Branch Rd,Laurel,DE,Poultry,"67,400",Yes,No,285,39,-76,"67,400",367,"1,558.18",-75.52,38.6,1.56,-75.538,38.599,269
+269,287,E.B.,Workman Jr,Workmans Farm Inc.,14367 Woodbridge rd,Greenwood,DE,Poultry,"67,200",Yes,No,287,39,-76,"67,200",482,"2,960.60",-75.59,38.79,2.96,-75.621,38.789,270
+270,289,Mike,Beauchamp,,1157 Burrsville Road,Greenwood,DE,Poultry,"67,000",Yes,No,289,39,-76,"67,000",447,569.94,-75.7,38.85,0.57,-75.698,38.849,271
+271,291,Gary,Phillips,Gary Phillips,7369 Gum Branch Rd,Seaford,DE,Poultry,"66,900",Yes,No,291,39,-76,"66,900",4,165.49,-75.63,38.6,0.17,-75.628,38.599,272
+272,292,Richard,Morris,Richard Morris,27635 Beaver Dam Br. Rd,Laurel,DE,Poultry,"66,000",Yes,No,292,39,-75,"66,000",366,35.02,-75.49,38.6,0.04,-75.49,38.598,273
+273,293,William,McCullough,Bill McCullough,1144 Spectrum Farms Rd,Felton,DE,Poultry,"66,000",Yes,No,293,39,-76,"66,000",655,"1,716.69",-75.72,38.98,1.72,-75.72,38.997,274
+274,294,Robert Mike,Peterman,Peterman Farm,36371 Susan Beach Rd,Delmar,DE,Poultry,"66,000",Yes,No,294,38,-76,"66,000",353,"1,831.93",-75.62,38.49,1.83,-75.642,38.485,275
+275,295,Jeffrey,Fuller,Stoney Brooke Farm,12079 Sycamore Rd,Laurel,DE,Poultry,"66,000",Yes,No,295,39,-76,"66,000",405,882.99,-75.53,38.57,0.88,-75.541,38.577,276
+276,296,Alvin,Warner,Warner Enterprises,425 Warner RD,Milford,DE,Poultry,"66,000",Yes,No,296,39,-75,"66,000",970,253.42,-75.43,38.94,0.25,-75.434,38.943,277
+277,297,Geraldine,Piper,Little Sacrafices Farm,36298 Susan Beach Rd,Delmar,DE,Poultry,"65,200",Yes,No,297,38,-76,"65,200",353,"2,150.60",-75.62,38.49,2.15,-75.646,38.486,278
+278,298,Jonathan,Mast,Chick Magnet,2898 Forrest Ave,Dover,DE,Poultry,"65,200",Yes,No,298,39,-76,"65,200",812,848.41,-75.6,39.15,0.85,-75.605,39.155,279
+279,299,Fazal,Kayani,Mash Allaha,12910 Old Furnace Road,Georgetown,DE,Poultry,"65,000",Yes,No,299,39,-76,"65,000",527,361.29,-75.51,38.67,0.36,-75.51,38.665,280
+280,300,Mark & Melody,Hudson,"Little Creek Acres, LLC",14860 Baker Road,Delmar,DE,Poultry,"64,800",Yes,No,300,38,-75,"64,800",389,"1,041.31",-75.48,38.47,1.04,-75.488,38.469,281
+281,301,William,Goehner,William & Hiroko Goehner Farm,33350 Ellis Grove Rd,Laurel,DE,Poultry,"64,800",Yes,No,301,39,-76,"64,800",349,"2,158.27",-75.64,38.54,2.16,-75.658,38.531,282
+282,302,Jill,Davis,Lazy Days Farm,34216 Millsboro Hwy,Millsboro,DE,Poultry,"64,600",Yes,No,302,39,-75,"64,600",316,659.55,-75.36,38.51,0.66,-75.357,38.519,283
+283,304,Charles,Hudson,Sandy Knoll Farm,12254 Laurel Road,Laurel,DE,Poultry,"64,000",Yes,No,304,39,-76,"64,000",372,95.50,-75.54,38.55,0.1,-75.535,38.553,284
+284,305,Chad,Messick,,,Laurel,DE,Poultry,"64,000",Yes,No,305,39,-76,"64,000",538,"1,164.41",-75.48,38.62,1.16,-75.491,38.617,285
+285,306,Edward,Walls,Big Belly Swamp Farm LLC,12867 Oak Road,Greenwood,DE,Poultry,"64,000",Yes,No,306,39,-76,"64,000",571,514.28,-75.51,38.79,0.51,-75.507,38.789,286
+286,307,Henry,Kaufman,Kaufman Chicken Ranch,2714 Wild Turkey RD,Seaford,DE,Poultry,"63,000",Yes,No,307,39,-76,"63,000",564,"2,563.73",-75.68,38.65,2.56,-75.704,38.667,287
+287,308,Michael,Hitchens,Ockels Farms/Mike Hitchens Farm,12581 Taylor Mill Rd,Laurel,DE,Poultry,"63,000",Yes,No,308,39,-76,"63,000",363,440.17,-75.52,38.59,0.44,-75.524,38.589,288
+288,309,Gretzhen,Wharton,Joyful Acres,36067 Jones Church Road,Frankford,DE,Poultry,"63,000",Yes,No,309,38,-75,"63,000",330,"1,538.30",-75.37,38.5,1.54,-75.389,38.493,289
+289,310,Richard,Collins,Pine Dust Farm,37161 Millsboro Hwy,Millsboro,DE,Poultry,"62,600",Yes,No,310,38,-75,"62,600",314,924.24,-75.34,38.48,0.92,-75.329,38.487,290
+290,311,Ramesh,Singh,Ramesh Singh Family Farm,20011 Lowes Crossing Rd,Millsboro,DE,Poultry,"62,000",Yes,No,311,39,-75,"62,000",317,"2,428.28",-75.39,38.54,2.43,-75.402,38.52,291
+291,312,Matthew,Kirk,Matt Kirk / Givens Farm,12263 County Seat Hwy,Laurel,DE,Poultry,"62,000",Yes,No,312,39,-76,"62,000",363,"1,525.57",-75.52,38.59,1.53,-75.536,38.593,292
+292,313,Joshua,Long II,Josh & Deanna Long Farm,37238 Hudson Rd,Selbyville,DE,Poultry,"61,600",Yes,No,313,38,-75,"61,600",199,"1,316.29",-75.19,38.47,1.32,-75.187,38.457,293
+293,315,Wayne,Murray,Clayfield Farm,21375 Marsh Rd,Georgetown,DE,Poultry,"61,300",Yes,No,315,39,-75,"61,300",530,785.80,-75.45,38.68,0.79,-75.445,38.692,294
+294,316,Ronald,Conaway,Doris Conaway,11412 County Seat Hwy,Laurel,DE,Poultry,"60,000",Yes,No,316,39,-76,"60,000",7,"1,101.07",-75.56,38.59,1.1,-75.551,38.581,295
+295,317,Larry,Towle,Towles Blue Hen Farm,3621 Westville Rd,Wyoming,DE,Poultry,"60,000",Yes,No,317,39,-76,"60,000",790,970.03,-75.57,39.12,0.97,-75.57,39.116,296
+296,318,Dennis,Shockley,Dennis Shockley,28636 Discountland Rd,Laurel,DE,Poultry,"60,000",Yes,No,318,39,-76,"60,000",7,709.51,-75.56,38.59,0.71,-75.556,38.593,297
+297,319,Ted,Carey,Susan Beach Estate,34956 Susan Beach Rd,Laurel,DE,Poultry,"60,000",Yes,No,319,39,-76,"60,000",350,712.83,-75.63,38.51,0.71,-75.634,38.504,298
+298,320,Jesse,Vanderwende,Walnut Tree,5067 Scotts Store Rd,Bridgeville,DE,Poultry,"60,000",Yes,No,320,39,-76,"60,000",552,"2,466.82",-75.65,38.76,2.47,-75.663,38.783,299
+299,321,Renee,Parker,"Warrington Chicks, Inc",6253 Dublin Hill Rd,Bridgeville,DE,Poultry,"60,000",Yes,No,321,39,-76,"60,000",552,399.88,-75.64,38.76,0.4,-75.64,38.757,300
+300,322,Stanley,Holland,Lane's End,3741 Lanes End Rd,Laurel,DE,Poultry,"60,000",Yes,No,322,39,-76,"60,000",489,"2,868.47",-75.69,38.56,2.87,-75.686,38.531,301
+301,323,Dennard,Hill,Mitten Tree Farm LLC,22742 Bloxom School Rd,Seaford,DE,Poultry,"60,000",Yes,No,323,39,-76,"60,000",559,576.01,-75.66,38.67,0.58,-75.671,38.671,302
+302,324,Stephen,Webb,Log Cabin Farm,403 Log Cabin Rd,Milford,DE,Poultry,"60,000",Yes,No,324,39,-75,"60,000",866,"3,169.41",-75.44,39.01,3.17,-75.423,38.984,303
+303,325,Brian,Beauchamp,Brian Beauchamp,1021 Cattail Branch Rd,Greenwood,DE,Poultry,"60,000",Yes,No,325,39,-76,"60,000",447,274.50,-75.71,38.85,0.27,-75.708,38.849,304
+304,326,Crystal & Sung,Kyu Park,Sundance Farm,12911 Trussum Pond Rd,Laurel,DE,Poultry,"60,000",Yes,No,326,39,-76,"60,000",378,399.24,-75.51,38.53,0.4,-75.517,38.532,305
+305,327,Andrew,Benson,Whitmore Farms,38510 Marlyn Lane,Selbyville,DE,Poultry,"60,000",Yes,No,327,38,-75,"60,000",194,"1,500.93",-75.16,38.47,1.5,-75.162,38.459,306
+306,328,Mary,Bryan,Mary Bryan Farm,4679 Old Sharptown Rd,Laurel,DE,Poultry,"60,000",Yes,No,328,39,-76,"60,000",331,"1,921.66",-75.67,38.56,1.92,-75.661,38.548,307
+307,329,Franklin,Conaway,Rooster Run,11091 Webb Farm Rd,Greenwood,DE,Poultry,"60,000",Yes,No,329,39,-75,"60,000",566,893.51,-75.49,38.81,0.89,-75.496,38.814,308
+308,330,Norris,Hudson,Trap Pond Farm,14670 Trap Pond Rd,Laurel,DE,Poultry,"60,000",Yes,No,330,39,-75,"60,000",408,422.65,-75.48,38.53,0.42,-75.486,38.526,309
+309,331,Glen,Givens,,8947 Woodland Ferry Rd,Laurel,DE,Poultry,"60,000",Yes,No,331,39,-76,"60,000",338,821.37,-75.59,38.56,0.82,-75.584,38.569,310
+310,332,Mark,Whaley,MW Farm Inc,12267 Mirey Branch Rd,Laurel,DE,Poultry,"60,000",Yes,No,332,39,-76,"60,000",367,861.17,-75.52,38.6,0.86,-75.532,38.603,311
+311,333,Janice,Vickers,Wm.& Janice Vickers,19930 Lowes Crossing Rd,Millsboro,DE,Poultry,"59,900",Yes,No,333,39,-75,"59,900",317,"2,410.20",-75.39,38.54,2.41,-75.404,38.521,312
+312,334,Wayne,Carter,Red Maples Farm,20875 Atlanta Rd,Seaford,DE,Poultry,"58,800",Yes,No,334,39,-76,"58,800",516,765.67,-75.66,38.7,0.77,-75.667,38.693,313
+313,335,James,Powell,Four Js Farm,34309 Burton Farm Road,Frankford,DE,Poultry,"58,800",Yes,No,335,39,-75,"58,800",87,"1,111.41",-75.16,38.53,1.11,-75.152,38.532,314
+314,336,Ruth,Moore,RAKM,5325 Amore Dr,Laurel,DE,Poultry,"58,600",Yes,No,336,39,-76,"58,600",349,"2,458.55",-75.63,38.52,2.46,-75.661,38.527,315
+315,337,Jane,Jones,Pass It Down Farm,19399 Lowes Rd,Millsboro,DE,Poultry,"58,000",Yes,No,337,38,-75,"58,000",392,"4,970.20",-75.44,38.5,4.97,-75.409,38.464,316
+316,338,Horace,Maloney Jr,Hobo Farm,12413 Hobo Farm Lane,Greenwood,DE,Poultry,"58,000",Yes,No,338,39,-76,"58,000",571,"1,747.05",-75.51,38.82,1.75,-75.53,38.821,317
+317,339,Charles,Briggs,Charles/Mark Briggs,22879 Lewes Georgetown Hwy,Georgetown,DE,Poultry,"57,800",Yes,No,339,39,-75,"57,800","1,115","1,594.55",-75.35,38.72,1.59,-75.34,38.709,318
+318,340,Jerrel,Heatwole,Fair Hope Farm Inc,280 Greenwood Rd,Greenwood,DE,Poultry,"57,500",Yes,No,340,39,-76,"57,500",453,"1,620.87",-75.63,38.85,1.62,-75.616,38.834,319
+319,341,Sherman,Jones,Sherman & Patty Farms Inc,20514 Lowes Crossing Rd,Millsboro,DE,Poultry,"57,000",Yes,No,341,39,-75,"57,000",330,"2,466.36",-75.37,38.5,2.47,-75.4,38.505,320
+320,342,John,Carter,Bethel Church Farm,28799 North Oak Grove Rd,Seaford,DE,Poultry,"56,375",Yes,No,342,39,-76,"56,375",560,"2,937.57",-75.68,38.69,2.94,-75.71,38.684,321
+321,343,Johnny,Moss,KLM Farms,17410 Atlanta Rd,Bridgeville,DE,Poultry,"56,000",Yes,No,343,39,-76,"56,000",467,810.89,-75.69,38.72,0.81,-75.682,38.726,322
+322,344,Thomas,Webb,Tom and Betty Farm,7343 Big Stone Beach Road,Milford,DE,Poultry,"56,000",Yes,No,344,39,-75,"56,000",969,611.98,-75.43,38.94,0.61,-75.422,38.946,323
+323,346,Roland,Fooks,,1737 Greenwood Rd,Greenwood,DE,Poultry,"55,000",Yes,No,346,39,-76,"55,000",455,505.48,-75.62,38.85,0.51,-75.629,38.852,324
+324,347,Laura,Ralph,Ralph Farm,35801 Robinhood Rd,Delmar,DE,Poultry,"55,000",Yes,No,347,38,-76,"55,000",346,651.80,-75.52,38.5,0.65,-75.526,38.496,325
+325,348,Karen,Hearn,Ray S. Mears & Sons Inc,P.O. Box 179,Seaford,DE,Poultry,"55,000",Yes,No,348,39,-76,"55,000",498,135.68,-75.61,38.64,0.14,-75.611,38.641,326
+326,349,Bruce,Mitchell,,30400 Conaway Road,Millsboro,DE,Poultry,"55,000",Yes,No,349,39,-75,"55,000",102,244.92,-75.38,38.56,0.24,-75.377,38.564,327
+327,350,Harold,Stevenson,H.D. Stevenson Farm,22905 Asbury Rd,Georgetown,DE,Poultry,"54,900",Yes,No,350,39,-75,"54,900",283,"1,430.12",-75.39,38.68,1.43,-75.409,38.678,328
+328,351,Jeff S.,Givens,Sailor Road Farm,30738 Old Sailor Road,Laurel,DE,Poultry,"54,800",Yes,No,351,39,-76,"54,800",338,167.16,-75.59,38.56,0.17,-75.586,38.564,329
+329,353,Jay,Bonk,Wellspring Farm,8426 Hills Lane,Laurel,DE,Poultry,"54,600",Yes,No,353,39,-76,"54,600",340,101.66,-75.6,38.52,0.1,-75.602,38.521,330
+330,354,Hanadi,El Baf,B & H Halam,18114 Chaplains Chapel Rd,Bridgeville,DE,Poultry,"54,000",Yes,No,354,39,-76,"54,000",544,"2,455.72",-75.48,38.74,2.46,-75.509,38.743,331
+331,355,Jeffrey,Shockley,Shockley Farms,33926 Gordy Rd,Laurel,DE,Poultry,"54,000",Yes,No,355,39,-76,"54,000",406,512.92,-75.51,38.52,0.51,-75.52,38.521,332
+332,356,Jack,Snyder,Kathy&Jack Synder Farm,38079 Synder Rd,Millsboro,DE,Poultry,"54,000",Yes,No,356,38,-75,"54,000",328,"2,146.69",-75.35,38.47,2.15,-75.374,38.466,333
+333,357,Carlton,Mitchell,,28120 Blueberry Lane,Frankford,DE,Poultry,"54,000",Yes,No,357,39,-75,"54,000",253,842.58,-75.24,38.52,0.84,-75.245,38.516,334
+334,358,Jeff,Hudson,J.D. Hudson Inc.,24701 Houston Cemetary Rd,Millsboro,DE,Poultry,"53,400",Yes,No,358,39,-75,"53,400",140,306.10,-75.32,38.55,0.31,-75.317,38.548,335
+335,359,Mary,Leager,Pondview,13578 Hewish Pkwy,Greenwood,DE,Poultry,"53,000",Yes,No,359,39,-76,"53,000",961,150.26,-75.51,38.86,0.15,-75.514,38.857,336
+336,360,Adam,Dickerson,Adam Dickerson,3135 Old Sharptown Rd,Laurel,DE,Poultry,"53,000",Yes,No,360,39,-76,"53,000",489,991.73,-75.69,38.56,0.99,-75.694,38.547,337
+337,361,Jason,McCabe,Sandy Hill Farm,32288 Hudson Rd,Millsboro,DE,Poultry,"52,800",Yes,No,361,39,-75,"52,800",142,379.74,-75.3,38.56,0.38,-75.308,38.554,338
+338,362,Andrew,Melvin,,5918 Whitleysburg Rd,Harrington,DE,Poultry,"52,500",Yes,No,362,39,-76,"52,500",431,136.21,-75.63,38.93,0.14,-75.636,38.927,339
+339,363,Oscar,Melvin,Oscar Melvin,5918 Whitleysburg road,Harrington,DE,Poultry,"52,500",Yes,No,363,39,-76,"52,500",431,136.21,-75.63,38.93,0.14,-75.636,38.927,340
+340,364,Matthew,Jones,Loose Cannon,1143 Vernon Road,Harrington,DE,Poultry,"52,000",Yes,No,364,39,-76,"52,000",461,"1,603.68",-75.71,38.91,1.6,-75.711,38.897,341
+341,365,Ghulam,Gujar,Gujar Farm LLC,3220 Ninefoot Rd,Greenwood,DE,Poultry,"51,525",Yes,No,365,39,-76,"51,525",454,"1,709.81",-75.61,38.86,1.71,-75.592,38.853,342
+342,366,Patricia,Cahall,P.A. Atkins Farm Inc.,24006 Cypress Rd,Frankford,DE,Poultry,"51,300",Yes,No,366,38,-75,"51,300",314,663.77,-75.34,38.47,0.66,-75.333,38.47,343
+343,367,John,Carter,Stack Farm,2642 Neals School Road,Seaford,DE,Poultry,"50,625",Yes,No,367,39,-76,"50,625",560,"2,556.98",-75.68,38.69,2.56,-75.705,38.684,344
+344,368,Vernon (Chip),Baker Jr,H & V Farms Inc,341 Grace St.,Millsboro,DE,Poultry,"50,000",Yes,No,368,39,-75,"50,000",136,191.34,-75.29,38.58,0.19,-75.291,38.579,345
+345,369,Richard,Layton,Ricky Layton,27728 Layton Rd,Laurel,DE,Poultry,"50,000",Yes,No,369,39,-75,"50,000",365,347.62,-75.48,38.6,0.35,-75.478,38.603,346
+346,370,Ralph (Tim),Timmons,Terra Blue Hen Farm,38288 Robinhood Road,Delmar,DE,Poultry,"50,000",Yes,No,370,38,-76,"50,000",388,"2,016.45",-75.51,38.47,2.02,-75.53,38.464,347
+347,371,Mark,Briggs,"Lucky Star Farms, LLC",22879 Lewes Georgetown Hwy,Georgetown,DE,Poultry,"50,000",Yes,No,371,39,-75,"50,000","1,115","1,594.55",-75.35,38.72,1.59,-75.34,38.709,348
+348,372,Bruce,Wright,Wright Farms,21648 Shell Station Rd,Frankford,DE,Poultry,"49,000",Yes,No,372,38,-75,"49,000",330,"1,918.29",-75.37,38.5,1.92,-75.373,38.481,349
+349,373,Donald,Evans,,36462 Pear Tree Rd,Millsboro,DE,Poultry,"49,000",Yes,No,373,38,-75,"49,000",330,"1,800.64",-75.37,38.5,1.8,-75.371,38.482,350
+350,375,Keith,Whaley,,27608 Layton RD,Laurel,DE,Poultry,"48,800",Yes,No,375,39,-75,"48,800",365,934.79,-75.48,38.6,0.93,-75.479,38.609,351
+351,376,John,Carter,Layer Farm,6049 Briarhook Road,Seaford,DE,Poultry,"48,600",Yes,No,376,39,-76,"48,600",516,"1,274.81",-75.65,38.69,1.27,-75.647,38.681,352
+352,377,Paul,Holston,Paul Holston,20001 Whitesville Rd,Millsboro,DE,Poultry,"48,000",Yes,No,377,38,-75,"48,000",330,"3,886.97",-75.37,38.5,3.89,-75.399,38.471,353
+353,378,Edward,Cathell,Bonnie Cathell Farm,35634 Parker Rd,Frankford,DE,Poultry,"48,000",Yes,No,378,38,-75,"48,000",247,773.91,-75.23,38.5,0.77,-75.241,38.5,354
+354,379,Arlene,Paisley,Paisley Acres,12768 Fleetwood Pond Rd,Seaford,DE,Poultry,"48,000",Yes,No,379,39,-76,"48,000",535,"1,759.16",-75.5,38.64,1.76,-75.519,38.629,355
+355,380,Christopher,Ryan,Ryan Farm,31196 Gray Road,Dagsboro,DE,Poultry,"48,000",Yes,No,380,39,-75,"48,000",86,742.23,-75.17,38.55,0.74,-75.175,38.553,356
+356,381,Dean,Ricks,,22787 Bloxom School Rd,Seaford,DE,Poultry,"47,700",Yes,No,381,39,-76,"47,700",559,216.13,-75.66,38.67,0.22,-75.666,38.67,357
+357,382,Josephine,Hearn,J&O Farm,16833 Wilson Hill Rd,Georgetown,DE,Poultry,"47,300",Yes,No,382,39,-75,"47,300","1,116","3,314.65",-75.38,38.71,3.31,-75.418,38.714,358
+358,383,Wendy,Mitchell,Outlaw Town&Sawmill Farm,37424 Millsboro Hwy,Millsboro,DE,Poultry,"47,000",Yes,No,383,38,-75,"47,000",329,"2,135.15",-75.35,38.47,2.14,-75.375,38.471,359
+359,384,John,Carter,Wesley Farm,21550 Atlanta Road,Seaford,DE,Poultry,"46,330",Yes,No,384,39,-76,"46,330",516,728.63,-75.66,38.7,0.73,-75.666,38.692,360
+360,385,Karen,Good,,37014 Brittingham Road,Delmar,DE,Poultry,"46,000",Yes,No,385,38,-75,"46,000",389,985.83,-75.48,38.47,0.99,-75.487,38.472,361
+361,386,Douglas,Hudson,Douglas Hudson,28265 Boyce Rd,Laurel,DE,Poultry,"46,000",Yes,No,386,39,-76,"46,000",7,249.91,-75.57,38.6,0.25,-75.575,38.593,362
+362,387,Charles & Rose,Littleton,Jeni-Rose,37054 Robinhood Road,Delmar,DE,Poultry,"46,000",Yes,No,387,38,-76,"46,000",388,"1,718.60",-75.51,38.48,1.72,-75.528,38.472,363
+363,388,Glen,Riddle,Riddle Farms,32839 Millsboro Hwy,Millsboro,DE,Poultry,"46,000",Yes,No,388,39,-75,"46,000",317,"1,005.81",-75.37,38.53,1.01,-75.357,38.527,364
+364,389,Lisa,Slater,Rufflin Feathers Farm,2575 Flatiron Rd,Harrington,DE,Poultry,"45,600",Yes,No,389,39,-76,"45,600",458,930.49,-75.6,38.88,0.93,-75.593,38.881,365
+365,390,Maralene/Wayne,Givens,Wayne Givens Farm,11465 Sycamore Rd,Laurel,DE,Poultry,"45,500",Yes,No,390,39,-76,"45,500",405,"1,086.83",-75.54,38.57,1.09,-75.548,38.573,366
+366,391,Gary,Brittingham,Gary Brittingham,16773 Shiloh Church Rd,Laurel,DE,Poultry,"45,000",Yes,No,391,39,-75,"45,000",370,"1,422.22",-75.45,38.59,1.42,-75.444,38.582,367
+367,392,Diane,Brubaker,Fran's/Brubaker Farms,33337 Gordy Road,Laurel,DE,Poultry,"45,000",Yes,No,392,39,-76,"45,000",343,666.49,-75.54,38.53,0.67,-75.538,38.528,368
+368,393,Danny,Collins,White Pines Farm,22009 Dots Rd,Millsboro,DE,Poultry,"44,800",Yes,No,393,38,-75,"44,800",329,"1,649.78",-75.35,38.47,1.65,-75.369,38.47,369
+369,394,Chad,Mitchell,Chad Mitchell,34837 Pepper Rd,Frankford,DE,Poultry,"44,800",Yes,No,394,39,-75,"44,800",247,173.23,-75.23,38.51,0.17,-75.227,38.505,370
+370,395,Mark,Baker,Baker's Acres,2677 Nine Foot Rd,Greenwood,DE,Poultry,"44,000",Yes,No,395,39,-76,"44,000",454,"1,320.49",-75.61,38.86,1.32,-75.6,38.849,371
+371,396,Greg,Hudson,GHAP Farms,31534 Hickory Hill Rd,Millsboro,DE,Poultry,"44,000",Yes,No,396,39,-75,"44,000",140,387.69,-75.31,38.55,0.39,-75.309,38.55,372
+372,397,Earl,Thompson,Earl Thompson,4559 Andrewville Rd,Greenwood,DE,Poultry,"43,600",Yes,No,397,39,-76,"43,600",454,780.82,-75.61,38.86,0.78,-75.604,38.861,373
+373,398,William,Messick,Gray Dawn Acres,3059 Woodyard Rd,Harrington,DE,Poultry,"43,500",Yes,No,398,39,-76,"43,500",486,"1,042.20",-75.56,38.87,1.04,-75.57,38.864,374
+374,399,Kenneth,Arney,,20613 Windy Lane,Bridgeville,DE,Poultry,"43,400",Yes,No,399,39,-76,"43,400",513,909.47,-75.61,38.71,0.91,-75.622,38.708,375
+375,400,Marcus,Woodward,Gryffen's Roost,117 Hunting Quarter Rd,Houston,DE,Poultry,"43,400",Yes,No,400,39,-76,"43,400",961,912.22,-75.51,38.88,0.91,-75.518,38.871,376
+376,401,Ronald,Hudson,Ron and Debbie Hudson,37062 Wells Lane,Millsboro,DE,Poultry,"43,200",Yes,No,401,38,-75,"43,200",329,558.34,-75.35,38.48,0.56,-75.356,38.479,377
+377,402,Dwayne,Snyder,DVC Enterprises Inc.,38534 Cooper Rd,Millsboro,DE,Poultry,"43,000",Yes,No,402,38,-75,"43,000",312,"3,087.61",-75.35,38.46,3.09,-75.38,38.455,378
+378,403,Ralph,Joseph,Ralph & Faye Joseph,34444 Old Stage Rd,Laurel,DE,Poultry,"43,000",Yes,No,403,39,-76,"43,000",345,975.72,-75.54,38.52,0.98,-75.545,38.51,379
+379,404,Brenda/Charles,Workman,Mountain Top Farm,15525 Messick Rd,Seaford,DE,Poultry,"43,000",Yes,No,404,39,-75,"43,000",538,680.05,-75.48,38.62,0.68,-75.482,38.618,380
+380,405,Connie & Craig,Truitt,Connie & Craig Farm,12900 Concord Road,Seaford,DE,Poultry,"43,000",Yes,No,405,39,-76,"43,000",367,"1,603.49",-75.52,38.61,1.6,-75.514,38.622,381
+381,406,Mark,Browning,Browning Brook Farm,1842 Parkers Chapel Road,Marydel,DE,Poultry,"43,000",Yes,No,406,39,-76,"43,000",588,521.44,-75.72,39.11,0.52,-75.721,39.107,382
+382,407,Roland,Hill,,34075 Horsey Church Rd,Laurel,DE,Poultry,"42,500",Yes,No,407,39,-76,"42,500",340,356.50,-75.61,38.52,0.36,-75.609,38.519,383
+383,408,Connie,Holmberg,Swartzentruber Farm,12505 Victory Lane,Greenwood,DE,Poultry,"42,000",Yes,No,408,39,-76,"42,000",483,161.49,-75.58,38.82,0.16,-75.578,38.816,384
+384,409,Willis,Kirk,Kirk-Lowe Farm,28475 Beaverdam RD,Laurel,DE,Poultry,"42,000",Yes,No,409,39,-75,"42,000",370,389.48,-75.49,38.59,0.39,-75.485,38.589,385
+385,410,Jeffrey,Workman,,36578 Brittingham Rd,Delmar,DE,Poultry,"42,000",Yes,No,410,38,-75,"42,000",388,779.97,-75.51,38.48,0.78,-75.497,38.48,386
+386,411,Wayne,Barr,Wayne Barr,36166 Susan Beach RD,Delmar,DE,Poultry,"41,000",Yes,No,411,38,-76,"41,000",353,"1,978.54",-75.62,38.49,1.98,-75.644,38.49,387
+387,412,Aaron,Zongker,Main Street Farm,36575 Main Street,Millsboro,DE,Poultry,"41,000",Yes,No,412,38,-75,"41,000",329,"1,174.61",-75.35,38.48,1.17,-75.362,38.481,388
+388,413,William,Thompson,Waterside,31343 Mount Pleasant Rd,Laurel,DE,Poultry,"40,200",Yes,No,413,39,-76,"40,200",349,319.29,-75.63,38.56,0.32,-75.635,38.556,389
+389,414,Edwin,Alexander,,4248 Willow Grove Rd,Camden,DE,Poultry,"40,000",Yes,No,414,39,-76,"40,000",834,807.88,-75.57,39.1,0.81,-75.566,39.102,390
+390,415,Brent,Workman,"Popular Level Farms, Inc",15376 Adams Road,Bridgeville,DE,Poultry,"40,000",Yes,No,415,39,-76,"40,000",481,"2,050.12",-75.59,38.77,2.05,-75.611,38.776,391
+391,416,Ronald,Massey,Front Nook Farm,3310 Woodland Church RD,Seaford,DE,Poultry,"40,000",Yes,No,416,39,-76,"40,000",488,"1,066.14",-75.69,38.57,1.07,-75.691,38.574,392
+392,417,Elmer/ Karen,Atkins/Speake,Ash-O-Ley,15022 Josephs Rd,Seaford,DE,Poultry,"40,000",Yes,No,417,39,-75,"40,000",538,462.85,-75.48,38.63,0.46,-75.486,38.622,393
+393,418,Alan,Mills,Edgar Mills & Son Farms Inc.,5198 Cedar Neck Rd,Milford,DE,Poultry,"40,000",Yes,No,418,39,-75,"40,000",948,"2,194.77",-75.4,38.92,2.19,-75.376,38.915,394
+394,419,Susan,Patton,Norma Lee Messick,8326 N Union Church Rd,Milford,DE,Poultry,"40,000",Yes,No,419,39,-75,"40,000",967,635.19,-75.47,38.87,0.64,-75.465,38.87,395
+395,420,David,Smith,Smith Acres,12310 Blanchard Rd,Greenwood,DE,Poultry,"40,000",Yes,No,420,39,-76,"40,000",422,"2,003.08",-75.69,38.82,2.0,-75.665,38.818,396
+396,421,Allan,Collins,AC Farms,15465 Pepperbox Rd,Delmar,DE,Poultry,"40,000",Yes,No,421,38,-75,"40,000",389,296.64,-75.48,38.48,0.3,-75.478,38.486,397
+397,422,Raymond,Marvel,Marvel Farm,3029 Deep Grass Lane,Houston,DE,Poultry,"40,000",Yes,No,422,39,-76,"40,000",960,89.17,-75.51,38.91,0.09,-75.512,38.905,398
+398,423,Nathaniel Joseph,Slaubaugh,Never Again,8084 Hickman Rd,Greenwood,DE,Poultry,"40,000",Yes,No,423,39,-76,"40,000",483,"2,835.44",-75.58,38.81,2.84,-75.614,38.806,399
+399,424,Ronnie,Wilson,Ron Wilson,34682 Central Ave,Frankford,DE,Poultry,"40,000",Yes,No,424,39,-75,"40,000",182,720.31,-75.12,38.52,0.72,-75.128,38.511,400
+400,425,Dewitt,Couden,Couden Farm,3992 Westville Rd,Wyoming,DE,Poultry,"40,000",Yes,No,425,39,-76,"40,000",790,970.03,-75.57,39.12,0.97,-75.57,39.116,401
+401,426,Carl,Brenneman,Carl Brenneman,505 Deep Grass Lane,Greenwood,DE,Poultry,"40,000",Yes,No,426,39,-76,"40,000",961,739.10,-75.51,38.86,0.74,-75.516,38.865,402
+402,427,Tim,Justice,Tim Justice,7044 Pine Branch Road,Delmar,DE,Poultry,"40,000",Yes,No,427,38,-76,"40,000",353,518.82,-75.62,38.48,0.52,-75.628,38.481,403
+403,428,David M,Lewis,,28621 E Trap Pond Rd,Laurel,DE,Poultry,"40,000",Yes,No,428,39,-75,"40,000",370,288.95,-75.46,38.59,0.29,-75.461,38.591,404
+404,429,Michael,McCabe,,32378 Hickory Hill Rd,Millsboro,DE,Poultry,"39,000",Yes,No,429,39,-75,"39,000",140,365.66,-75.31,38.54,0.37,-75.308,38.541,405
+405,430,Andrew,Phillips,Old Country Farm,10444 Allens Mill Road,Delmare,DE,Poultry,"39,000",Yes,No,430,38,-76,"39,000",340,"4,275.49",-75.61,38.5,4.28,-75.569,38.478,406
+406,431,Herman,Kauffman,Herman Kauffman Farm,10839 Beach Hwy,Greenwood,DE,Poultry,"37,700",Yes,No,431,39,-76,"37,700",483,"2,665.42",-75.58,38.8,2.67,-75.55,38.802,407
+407,432,Janet,Carroll,Pardee Farm,4720 Killens Pond Rd,Felton,DE,Poultry,"36,900",Yes,No,432,39,-76,"36,900",910,119.28,-75.54,38.99,0.12,-75.538,38.992,408
+408,433,Pauline,Phillips,,24193 Daisey Rd,Frankford,DE,Poultry,"36,000",Yes,No,433,39,-75,"36,000",88,"1,304.05",-75.18,38.53,1.3,-75.174,38.515,409
+409,434,John,Swartzentruber,Peewee's Plantation,14804 Blanchard Rd,Bridgeville,DE,Poultry,"36,000",Yes,No,434,39,-76,"36,000",552,"2,308.88",-75.65,38.76,2.31,-75.636,38.781,410
+410,435,John,Carter,Charles Allen Farm,20831 Wesley Church Road,Seaford,DE,Poultry,"35,350",Yes,No,435,39,-76,"35,350",516,12.78,-75.63,38.69,0.01,-75.635,38.692,411
+411,436,Garret,Mitchel,Garret Mitchel,30289 Conaway Road,Millsboro,DE,Poultry,"35,000",Yes,No,436,39,-75,"35,000",97,694.93,-75.37,38.57,0.69,-75.376,38.573,412
+412,437,Joshua,Slaubaugh,Fallen Sky,C and D Farm Lane,Greenwood,DE,Poultry,"35,000",Yes,No,437,39,-76,"35,000",484,634.89,-75.56,38.83,0.63,-75.551,38.831,413
+413,438,Roy,Wagner,Tomahawk Farm LLC,2744 Todds Chapel Rd,Greenwood,DE,Poultry,"34,000",Yes,No,438,39,-76,"34,000",453,360.79,-75.64,38.85,0.36,-75.635,38.855,414
+414,439,Brad,McWilliams,,8213 Bacons Rd,Laurel,DE,Poultry,"34,000",Yes,No,439,39,-76,"34,000",340,153.38,-75.61,38.51,0.15,-75.607,38.51,415
+415,440,Richard,Culver,Culver Farms,8905 Jackson Road,Laurel,DE,Poultry,"34,000",Yes,No,440,39,-76,"34,000",340,"1,324.35",-75.61,38.5,1.32,-75.592,38.505,416
+416,441,David,Messick,Cozy Corner,4421 Rabbit Run Rd,Bridgeville,DE,Poultry,"33,100",Yes,No,441,39,-76,"33,100",467,"1,836.24",-75.69,38.72,1.84,-75.674,38.734,417
+417,442,Joseph,Schimmelman,Schimmelman Farm,2972 Westville Rd,Marydel,DE,Poultry,"32,800",Yes,No,442,39,-76,"32,800",588,"2,261.17",-75.72,39.11,2.26,-75.702,39.098,418
+418,443,Harold,Sensenig,Harold & Janet Sensenig,5886 Underwoods Corner Rd,Smyrna,DE,Poultry,"32,000",Yes,No,443,39,-76,"32,000",729,"3,699.48",-75.63,39.24,3.7,-75.649,39.267,419
+419,444,Michael,Gannon,,1120 Prospect Church Rd,Harrington,DE,Poultry,"32,000",Yes,No,444,39,-76,"32,000",456,"1,011.58",-75.62,38.87,1.01,-75.625,38.873,420
+420,445,Raymond/Mary,Hitch,,12791 Fleetwood Pond Rd,Seaford,DE,Poultry,"29,800",Yes,No,445,39,-76,"29,800",535,"1,178.26",-75.51,38.64,1.18,-75.517,38.634,421
+421,446,Herman,Smith,,1213 Deer Antler,Clayton,DE,Poultry,"28,000",Yes,No,446,39,-76,"28,000",698,"2,279.29",-75.69,39.31,2.28,-75.697,39.29,422
+422,447,Theda,Brittingham,Theda Brittingham,12482 Baker Mill Rd,Seaford,DE,Poultry,"26,400",Yes,No,447,39,-76,"26,400",524,974.32,-75.53,38.65,0.97,-75.527,38.64,423
+423,448,Jeff,Fry,Fry Farms Inc.,5846 Williamsville Rd,Milford,DE,Poultry,"23,000",Yes,No,448,39,-75,"23,000",978,102.52,-75.47,38.91,0.1,-75.473,38.91,424
+424,449,Kenneth,Mumford,Kenneth Mumford,22842 Parker Road,Georgeotwn,DE,Poultry,"21,800",Yes,No,449,39,-75,"21,800",284,471.58,-75.39,38.67,0.47,-75.396,38.673,425
+425,450,"Charles """"Greg""""",Cain,,1514 Carpenter Bridge Road,Harrington,DE,Poultry,"20,000",Yes,No,450,39,-76,"20,000",895,249.30,-75.54,38.94,0.25,-75.545,38.942,426
+426,451,Howard,Wilkins,Howard Wilkins & Sons,7630 Wilkins Rd,Lincoln,DE,Poultry,"20,000",Yes,No,451,39,-75,"20,000","1,006","1,921.80",-75.39,38.87,1.92,-75.4,38.883,427
+427,452,"William """"Robert""""",Otwell,Quiet Acres,15141 Johnson Road,Laurel,DE,Poultry,"19,600",Yes,No,452,39,-75,"19,600",383,666.03,-75.48,38.55,0.67,-75.473,38.558,428
+428,453,Ivan,Mast,Ivan Mast,12075 Blacksmithshop Rd,Greenwood,DE,Poultry,"16,200",Yes,No,453,39,-76,"16,200",571,76.14,-75.51,38.82,0.08,-75.509,38.823,429
+429,454,Schiff Farms,Schiff,Bi State Feeders LLC,16054 S DuPont Hwy,Harrington,DE,Beef,"2,400",Yes,No,454,39,-76,"2,400",900,894.98,-75.57,38.93,0.89,-75.567,38.94,430
+431,456,Henry C,Johnson,,37045 Johnson Rd,Selbyville,DE,Swine,"1,465",Yes,No,456,38,-75,"1,465",194,53.66,-75.14,38.47,0.05,-75.139,38.474,432
+432,457,Walter,Hopkins,Green Acres Farm Inc,18186 Dairy Farm RD,Lewes,DE,Dairy,570,Yes,No,457,39,-75,570,"1,127","1,458.77",-75.23,38.74,1.46,-75.221,38.732,433
+433,458,Bruce,Dempsey,Dempsey Farms LLC,1708 Fast Landing Road,Dover,DE,Dairy,400,Yes,No,458,39,-76,400,720,"1,867.64",-75.57,39.24,1.87,-75.553,39.234,434
+434,459,Al,Moore,,1057 Wheatley's Pond Road,Smyrna,DE,Dairy,375,Yes,No,459,39,-76,375,708,"1,809.18",-75.64,39.23,1.81,-75.652,39.247,435
+435,460,Alan,Bailey,JE Bailey and Sons,2135 Seashore Hwy.,Greenwood,DE,Dairy,350,Yes,No,460,39,-76,350,463,"1,969.19",-75.69,38.81,1.97,-75.715,38.804,436
+436,461,Ernie,Vogl,Vogl Bothers,4911 Foxhunters Rd,Harrington,DE,Dairy,270,Yes,No,461,39,-76,270,433,286.21,-75.63,38.95,0.29,-75.633,38.955,437
+437,462,William,Wells,,283 John Hurd Rd,Harrington,DE,Dairy,207,Yes,No,462,39,-76,207,658,685.85,-75.69,38.98,0.69,-75.684,38.981,438
+438,464,Loyal,Bender,,13060 Bender Farm Rd,Greenwood,DE,Dairy,150,Yes,No,464,39,-76,150,571,"1,452.39",-75.51,38.83,1.45,-75.524,38.831,439
+439,465,Mike,Hastings,,34488 Horsey Church Rd,Laurel,DE,Beef,40,Yes,No,465,39,-76,40,340,521.44,-75.61,38.51,0.52,-75.602,38.51,440
+440,466,Blaine,Chorman,,10234 Blacksmith Shop Road,"Greenwood, DE",DE,Poultry,,Yes,No,466,39,-76,,961,"1,208.43",-75.52,38.85,1.21,-75.505,38.845,441
+441,467,Joshua,Kauffman,,2921 Park Brown Rd,Harrington,DE,Poultry,,Yes,No,467,39,-76,,658,"1,732.79",-75.69,38.97,1.73,-75.684,38.959,442
+442,468,Garrett,Sammons,Above and Beyond,Greenwood Road,Greenwood,DE,Poultry,,Yes,No,468,39,-76,,453,"1,377.90",-75.63,38.85,1.38,-75.617,38.836,443
+443,469,Mark,Maloney,Family Traditions,7028 Whitelysburg Rd,Harrington,DE,Poultry,,Yes,No,469,39,-76,,431,"1,511.03",-75.62,38.94,1.51,-75.617,38.924,444
+444,470,Bruce,Rickards,Rick Chick Farms,26470 Nine Foot Rd,Dagsboro,DE,Poultry,"650,000",Yes,No,3,39,-75,"650,000",257,406.78,-75.29,38.54,0.41,-75.286,38.532,445
+445,471,Greg,McCabe,McCabe Enterprizes,30175 Rabbit Knaw Rd,Selbyville,DE,Poultry,"246,000",Yes,No,17,38,-75,"246,000",158,95.91,-75.21,38.47,0.1,-75.211,38.468,446
+446,472,William (Frances),Owens,Mean Green Farm,38539 Millsboro Road,Millsboro,DE,Poultry,"232,000",Yes,No,18,38,-75,"232,000",328,"3,435.26",-75.35,38.47,3.44,-75.385,38.458,447
+447,473,Mack,McCary,,32570 McCary Rd,Frankford,DE,Poultry,"200,000",Yes,No,26,38,-75,"200,000",197,110.50,-75.18,38.49,0.11,-75.178,38.493,448
+448,474,John,Truitt,Greenfield Farm,37947 Lee Lane,Delmar,DE,Poultry,"184,200",Yes,No,32,38,-75,"184,200",389,"1,366.36",-75.48,38.47,1.37,-75.491,38.466,449
+449,475,Randy,McCloskey,,Mesibov Road,Houston,DE,Poultry,"181,000",Yes,No,33,39,-76,"181,000",487,"1,684.66",-75.55,38.88,1.68,-75.535,38.879,450
+450,476,Bryan,Melvin,"B & C Farms, LLC",4714 Bryants Corner Road,Wyoming,DE,Poultry,"143,000",Yes,No,65,39,-76,"143,000",793,553.26,-75.63,39.12,0.55,-75.632,39.117,451
+451,477,Mark,McDowell,Praying Chicks Farm Inc,11766 McDowell Ln,Greenwood,DE,Poultry,"140,000",Yes,No,73,39,-76,"140,000",422,"1,670.44",-75.69,38.83,1.67,-75.668,38.825,452
+452,478,Young,Lee,Bethel/Happy Farm,2972 Gun & Rod Club Road,Houston,DE,Poultry,"132,000",Yes,No,93,39,-76,"132,000",898,233.65,-75.55,38.9,0.23,-75.55,38.9,453
+453,479,Ronald,Robbins,Robbins Farm,543 Churchill Rd,Milford,DE,Poultry,"125,000",Yes,No,107,39,-75,"125,000","1,118","1,513.10",-75.48,38.93,1.51,-75.472,38.943,454
+454,480,Roland & Marilyn,Ellers,Sparrows Song,1919 Mesibov Road,Houston,DE,Poultry,"120,000",Yes,No,119,39,-76,"120,000",487,"1,791.65",-75.55,38.88,1.79,-75.536,38.876,455
+455,481,Roland Lee,Ellers,Living Faith Farm,1919 Mesibov Road,Houston,DE,Poultry,"93,400",Yes,No,173,39,-76,"93,400",487,"1,792.23",-75.55,38.88,1.79,-75.536,38.876,456
+456,482,John,Carter,Atlanta Farm,21916 De Shields Lane,Seaford,DE,Poultry,"89,513",Yes,No,188,39,-76,"89,513",516,832.57,-75.65,38.69,0.83,-75.658,38.687,457
+457,483,Bruce,Esham,Westwood Farm,21906 Esham Rd,Millsboro,DE,Poultry,"86,000",Yes,No,206,39,-75,"86,000",316,478.66,-75.37,38.51,0.48,-75.369,38.51,458
+458,484,Howard,Melson,Ballast Point Farm,31085 Lost Way,Dagsboro,DE,Poultry,"80,000",Yes,No,229,39,-75,"80,000",232,849.51,-75.18,38.57,0.85,-75.179,38.561,459
+459,485,Sam,Collins,Tussock Branch Farm Inc.,32018 Mount Pleasant Church Rd,Bethel,DE,Poultry,"80,000",Yes,No,231,39,-76,"80,000",349,385.57,-75.63,38.55,0.39,-75.638,38.55,460
+460,486,Steven,Riddle,Deer Pond Farm,30594 Lee's Chicken Lane,Millsboro,DE,Poultry,"67,300",Yes,No,286,39,-75,"67,300",100,477.46,-75.34,38.57,0.48,-75.332,38.568,461
+461,487,Debbie,Moffett,Hope So,1440 Gun & Rod Club Road,Harrington,DE,Poultry,"67,200",Yes,No,288,39,-76,"67,200",487,444.80,-75.56,38.89,0.44,-75.564,38.885,462
+462,488,Frank,Dill,,3480 Vernon Rd,Harrington,DE,Poultry,"67,000",Yes,No,290,39,-76,"67,000",462,256.71,-75.67,38.89,0.26,-75.669,38.889,463
+463,489,Barry,Maloney,Claybird Farm,282 South Bowers Beach Rd,Milford,DE,Poultry,"64,500",Yes,No,303,39,-75,"64,500",863,"2,957.67",-75.42,39.02,2.96,-75.392,39.003,464
+464,491,Richard,Webb,Home Farm,542 South Bowers Beach Road,Milford,DE,Poultry,"55,300",Yes,No,345,39,-75,"55,300",863,"2,543.27",-75.41,39.02,2.54,-75.393,39.007,465
+465,492,Richard,Webb,Mosley Farm,542 South Bowers Beach Rd,Milford,DE,Poultry,"54,600",Yes,No,352,39,-75,"54,600",863,"2,543.27",-75.41,39.02,2.54,-75.393,39.007,466
+466,493,Betsy,Labar,Chicks Roux Farm,34927 Logan and Brooke Lane,Laurel,DE,Poultry,"48,800",Yes,No,374,39,-76,"48,800",346,285.55,-75.52,38.51,0.29,-75.52,38.51,467
+467,494,Philip,Busker,Jenamy Farms LLC,1676 Drapers Corners Rd,Harrington,DE,Dairy,180,Yes,No,463,39,-76,180,472,325.46,-75.68,38.91,0.33,-75.68,38.907,468
