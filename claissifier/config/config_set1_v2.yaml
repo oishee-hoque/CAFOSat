@@ -1,0 +1,19 @@
+# === Data ===
+data_path: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/datas/dataset/cafo_set_ver.json
+num_classes: 8
+data_type: set1
+
+# === Model ===
+model_name: dinov2_vit_b  # Options: resnet18, resnet50, vit_b_16, swin_b, efficientnet_b0, efficientnet_b3, dinov2_vit_b, convnext_tiny clip remoteclip
+
+# === Training Parameters ===
+batch_size: 32
+lr: 0.0001
+max_epochs: 30
+patience: 5
+precision: 16-mixed
+worker: 12
+
+# === Logging and Runtime ===
+log_dir: logs/set1/
+gpus: 2

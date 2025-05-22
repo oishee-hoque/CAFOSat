@@ -1,0 +1,31 @@
+# config.yaml
+
+data:
+  # data_path: "/project/biocomplexity/gza5dr/CAFO/NC_data/training_data"
+  # data_path: "/project/biocomplexity/gza5dr/CAFO/NC_data/nc_training_data.json"
+  # data_path: "/project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/datas/dataset/binary_dataset.json"
+  # data_path: "/project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/datas/dataset/train_test_split_meter_ml.json"
+  data_path:  "/project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/datas/dataset/cafo_set2.json"
+  batch_size: 64
+  mode: "json"
+  worker: 8
+  
+
+model:
+  lr: 0.0001
+  model_type: "vit_b_16"
+
+
+trainer:
+  max_epochs: 3
+  accelerator: "auto"
+  precision: 32
+  
+
+
+checkpoint:
+  dirpath: "checkpoints"
+  filename: "cafo_binaray_our_vit"
+  monitor: "val_acc"
+  mode: "max"
+  save_top_k: 1

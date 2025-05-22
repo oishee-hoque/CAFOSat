@@ -1,0 +1,19 @@
+# === Data ===
+data_path: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/datas/dataset/cafo_set_merged_aug.json
+num_classes: 8
+data_type: cafo_set_merged_aug
+
+# === Model ===
+model_name: convnext_tiny  # Options: resnet18, resnet50, vit_b_16, swin_b, efficientnet_b0, efficientnet_b3, dinov2_vit_b, convnext_tiny
+
+# === Training Parameters ===
+batch_size: 64
+lr: 0.0001
+max_epochs: 30
+patience: 3
+precision: 16-mixed
+worker: 8
+
+# === Logging and Runtime ===
+log_dir: logs/cafo_set_merged_aug/
+gpus: 3

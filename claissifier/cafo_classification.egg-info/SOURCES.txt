@@ -1,0 +1,5 @@
+setup.py
+cafo_classification.egg-info/PKG-INFO
+cafo_classification.egg-info/SOURCES.txt
+cafo_classification.egg-info/dependency_links.txt
+cafo_classification.egg-info/top_level.txt
