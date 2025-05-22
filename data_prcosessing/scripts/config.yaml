@@ -1,0 +1,94 @@
+# ========== Download NAIP Imagery ==========
+download:
+    location_csv: /project/biocomplexity/wyr6fx(Nibir)/NeurIPS/ArcGIS-DataDownload/StateWise/Delaware CAFOS (DE-DNR EC).csv ## path to the csv containing location information
+    naip_root: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/downloaded_naip_full_v2 ## base path where the images will be downloaded
+    lat_col: y  ##name of the lat columns in your csv
+    lon_col: x ##name of the lon columns in your csv
+    location_column: STATE ##name of the location columns in your csv
+    folder: "DE"  ## folder where the downloading information will be saved
+    max_workers: 40
+
+# ================================================================================================================================================================================================================================================
+
+
+# ========== GENERAL ==========
+state: DE
+naip_root: /project/biocomplexity/gza5dr/CAFO/exp_v2/downloaded_naip_full_v2/
+location_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/input_csvs/{state}_processed.csv ## path to the csv containing location information
+point_image_mapping_csv:  /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/point_mapping_to_images_csvs/point_image_mapping_by_{state}.csv
+
+
+# ========== Match Point to Image ==========
+match_point:
+  output_unmatched_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/point_mapping_to_images_csvs/unmatched_cafo_points_{state}.csv ## this file will have the points that have no corresponding images
+  states_of_interest: null
+  cafo_unique_id: CAFO_UNIQUE_ID ## in point_image_mapping_csv file there should be a unique id for each location
+  lon_col: x ##name of the lat columns in point_image_mapping_csv file (not optional)
+  lat_col: y ##name of the lon columns in point_image_mapping_csv file (not optional)
+  location_column: STATE ##name of the location columns in point_image_mapping_csv file (not optional)
+  cafo_type: CAFO_TYPE ##name of the cafo_type columns in point_image_mapping_csv file (not optional)
+  
+
+# ========== Multiple Patch Generation ==========
+multi_patch:
+  output_patch_dir: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/point_multi_patches/{state}/
+  multi_patch_metadata_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/patch_metadata/multi_patch_metadata_{state}.csv
+  patch_size: 833
+  crop_buffer: 700
+  bands: [1, 2, 3, 4]
+
+# ========== Single Patch Generation ==========
+single_patch:
+  patch_output_dir: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/point_single_patches/{state}
+  metadata_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/patch_metadata/single_patch_metadata_{state}.csv
+  patch_size: 833
+  crop_buffer: 350
+  num_workers: 12
+  type: main
+  
+  
+# ========== Refinement ==========
+refinement:
+  model_path: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/checkpoints/cafo-best-epoch=00-val_acc=0.98_resnet18_IOWA.ckpt
+  multi_patch_metadata_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/patch_metadata/multi_patch_metadata_{state}.csv
+  image_dir: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/point_multi_patches/{state}
+  ##output
+  weak_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/refined_coords_csvs/cafo_cam_projected_centers_{state}.csv
+  polygon_dir: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/cam_polygons/{state}
+  target_layer: layer4
+  num_classes: 2
+  input_size: [224, 224]
+  cam_output_size: [833, 833]
+  cam_threshold: 0.6
+ 
+
+# ========== Clustering ==========
+clustering:
+  polygon_dir: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/cam_polygons/{state}
+  weak_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/refined_coords_csvs/cafo_cam_projected_centers_{state}.csv
+  output_geojson: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/cam_polygons/filtered_cam_polygons_{state}.geojson
+  output_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/cam_polygons/filtered_cam_polygons_{state}.csv
+  merge_eps: 200
+
+# ========== Single Patch Generation (Filtered) ==========
+filtered_single_patch:
+  mapping_file: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/cam_polygons/filtered_cam_polygons_{state}.csv
+  main_metadata_file: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/patch_metadata/single_patch_metadata_{state}.csv
+  patch_output_dir: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/point_single_patches/{state}_filtered
+  metadata_output_file: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/patch_metadata/single_patch_metadata_{state}_filtered.csv
+  patch_size: 833
+  crop_buffer: 700
+  num_workers: 12
+
+
+
+run_flags:
+    match_point_to_image: true
+    multi_patch_generate: true
+    single_patch_generate: true
+    refine_coords: true
+    cluster: true
+    single_patch_filtered: true
+    
+    
+    
