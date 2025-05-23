@@ -72,6 +72,7 @@ This includes:
 - Annotate Infrastructure 
 - Synthetic sample creation
 
+🧠 Train your own classifier: [See classifier README](classifier/README.md)
 
 
 ## 🔬 Potential Applications

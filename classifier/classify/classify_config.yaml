@@ -1,0 +1,5 @@
+inference:
+  type: "Poultry"
+  input_dir: "/project/biocomplexity/gza5dr/CAFO/exp_v2/organized_cafo_dataset/{type}"
+  checkpoint: "/project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/checkpoints/cafo-best-epoch=00-val_acc=1.00_resnet50_meter_ml.ckpt"
+  output_dir: "/project/biocomplexity/gza5dr/CAFO/exp_v2/verified_cafo_3/{type}"
