@@ -4,7 +4,7 @@
 
 To ensure compatibility and reproducibility, please begin by setting up your environment using the provided `requirements.txt` file.
 
-## 🔧 Step-by-Step: CAFO Location Refinement
+### 🔧 Step-by-Step
 
 #### ➤ Option A: Using `virtualenv` or `venv`
 
@@ -199,3 +199,36 @@ python script_name.py config.yaml
 
 🔄 **Use Cases for Intermediate Outputs**: Additional outputs from the pipeline can support various downstream tasks. For instance, the merged_clustered.geojson file can be used to derive bounding boxes representing the spatial extent of complete CAFO facilities.
 
+
+## 👁️‍🗨️ Optional Steps: Manual Verification and Infrastructure Labeling
+To support human-in-the-loop refinement and validation, we provide a Jupyter notebook designed for **manual verification** and **Infrastructure Labeling** of CAFO patches and annotations.
+
+📓 **Notebook path**:  
+[`notebooks/manual_verification_notebook.ipynb`](https://github.com/oishee-hoque/CAFOSat/blob/main/data_prcosessing/notebooks/manual_verification_notebook.ipynb)
+
+---
+
+### 🧪 What You Can Do
+
+Using the notebook, you can:
+
+- ✅ **Check if a CAFO is actually present** in the given patch.
+- 🔁 **Compare original vs. refined CAFO patches**, side by side.
+- 🏷 **Manually label infrastructure elements** (e.g., barns, manure ponds, lagoons).
+
+> 🖼️ Notebook Overview:
+<p align="center">
+  <img src="figures/versetup-1.png" alt="Manual Verification Infrastructure Labeling Example" width="600"/>
+</p>
+
+---
+
+## 🧪 Optional: Synthetic Data Generation
+
+## 🚫 Optional: Negative Sample Generation
+
+Change in file paths where necessary.
+
+```bash
+python negativePatchGeneration.py
+```
