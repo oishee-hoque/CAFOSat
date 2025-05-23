@@ -34,25 +34,26 @@ CAFOSat is built using a **human-in-the-loop scalable annotation framework** des
 ## 📁 Dataset Structure (Preview)
 CAFOSat/
 ├── point_single_patches/
-│ ├── {state}/
-│ │ └── <patch_file>.tif
-│ ├── {state_filtered}/
-│ └── <patch_file>.tif
+│   ├── {state}/
+│   │   └── <patch_file>.tif
+│   ├── {state_filtered}/
+│   │   └── <patch_file>.tif
 │
 ├── augmented_data_image/
-│ ├── barn/
-│ │ └── <patch_file>.png
-│ ├── manure_pond/
-│ │ └── <patch_file>.png
-│ └── other/
-│ └── <patch_file>.png
+│   ├── barn/
+│   │   └── <patch_file>.png
+│   ├── manure_pond/
+│   │   └── <patch_file>.png
+│   └── other/
+│       └── <patch_file>.png
 │
 ├── negative_sample/
-│ └── <patch_file>.tif
+│   └── <patch_file>.tif
 │
 ├── metadata/
-│ ├── aug_patch_metadata.csv
-│ └── refined_patch_metadata.csv
+│   ├── aug_patch_metadata.csv
+│   └── refined_patch_metadata.csv
+
 
 
 ### 📝 Description
