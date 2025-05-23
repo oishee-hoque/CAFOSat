@@ -1,6 +1,6 @@
 # CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery
 
-![CAFOSat Overview](figures/cafosat_overview.pdf)
+![CAFOSat Overview](figures/Overview-1.png)
 
 ## 🗺️ Dataset Summary
 
