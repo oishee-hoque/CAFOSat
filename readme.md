@@ -24,6 +24,20 @@ CAFOSat is built using a **human-in-the-loop scalable annotation framework** des
 - Supports extensibility to other domains or regions.
 - Enables continuous dataset expansion with minimal overhead.
 
+## 🛠️ Create Your Own Dataset
+
+To create your own dataset using the CAFOSat annotation and processing pipeline, follow the guide in the repository below:
+
+👉 [CAFOSat Data Processing Pipeline](https://github.com/oishee-hoque/CAFOSat/tree/main/data_prcosessing)
+
+This includes:
+- Geolocation Refinement
+- Patch generation  
+- Manual Verfication Setup  
+- Annotate Infrastructure 
+- Synthetic sample creation
+
+
 ## 🔬 Potential Applications
 
 - CAFO Detection & Localization
