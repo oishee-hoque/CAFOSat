@@ -147,7 +147,7 @@ You can also execute each script individually for greater control, debugging, or
 
 🧭 Refines coordinates for CAFO infrastructure detection using auxiliary logic (e.g., masks, object proposals).
 
-- 📥 **Input**: trained cafo classifier (you can download our trained model here and use it), multi_patch_metadata_csv, multi_patces
+- 📥 **Input**: Pretrained CAFO classifier (you can download it [here](#)), multi_patch_metadata_csv, multi_patches
 - 📤 **Output**: Refined coordinates and updated metadata: 'refined_coords_csvs/cafo_cam_projected_centers_{state}.csv', 'cam_polygons/{state}'
 
 ---
