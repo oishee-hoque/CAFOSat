@@ -218,7 +218,7 @@ Using the notebook, you can:
 
 > 🖼️ Notebook Overview:
 <p align="center">
-  <img src="./figures/versetup-1.png" alt="Manual Verification Infrastructure Labeling Example" width="600"/>
+  <img src="../figures/versetup-1.png" alt="Manual Verification Infrastructure Labeling Example" width="600"/>
 </p>
 
 ---
