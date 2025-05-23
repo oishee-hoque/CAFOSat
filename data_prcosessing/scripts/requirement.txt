@@ -1,0 +1,35 @@
+# Core Python Libraries
+numpy>=1.21
+pandas>=1.3
+tqdm>=4.60
+matplotlib>=3.4
+
+# Geospatial Libraries
+rasterio>=1.2
+shapely>=2.0
+geopandas>=0.10
+scikit-learn>=1.0
+
+# Deep Learning & Vision
+torch>=1.12
+torchvision>=0.13
+transformers>=4.21
+diffusers>=0.15
+Pillow>=8.2
+
+# TorchCAM for GradCAM
+torchcam>=0.3
+
+# YAML & Utility
+pyyaml>=5.4
+
+# Optional, for PDF generation
+matplotlib>=3.4
+matplotlib-inline>=0.1
+matplotlib-backend-pdf>=1.0  # safe fallback if using PDFPages
+
+# Multiprocessing Tools
+concurrent-log-handler  # standard lib includes concurrent.futures
+
+# System Utilities
+glob2>=0.7

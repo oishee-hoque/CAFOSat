@@ -14,7 +14,6 @@ import geopandas as gpd
 import sys
 import yaml
 from tqdm import tqdm
-sys.path.append('/project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/')
 from model.classifierModel import CAFOClassifier
 from utils import *
 

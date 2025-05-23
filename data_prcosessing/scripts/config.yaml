@@ -1,6 +1,6 @@
 # ========== Download NAIP Imagery ==========
 download:
-    location_csv: /project/biocomplexity/wyr6fx(Nibir)/NeurIPS/ArcGIS-DataDownload/StateWise/Delaware CAFOS (DE-DNR EC).csv ## path to the csv containing location information
+    location_csv: ./datas/input_csvs ## path to the csv containing location information
     naip_root: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/downloaded_naip_full_v2 ## base path where the images will be downloaded
     lat_col: y  ##name of the lat columns in your csv
     lon_col: x ##name of the lon columns in your csv
