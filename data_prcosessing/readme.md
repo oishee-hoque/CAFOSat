@@ -4,7 +4,7 @@
 
 To ensure compatibility and reproducibility, please begin by setting up your environment using the provided `requirements.txt` file.
 
-### 🔧 Step-by-Step
+## 🔧 Step-by-Step: CAFO Location Refinement
 
 #### ➤ Option A: Using `virtualenv` or `venv`
 
@@ -166,8 +166,9 @@ You can also execute each script individually for greater control, debugging, or
 🧹 Generates a **filtered** version of patches using refined coordinates or clustered results.
 
 - 📥 **Input**: Refined or clustered coordinates
-- 📤 **Output**: Filtered final patch set: '/patch_metadata/single_patch_metadata_{state}_filtered.csv', '/point_single_patches/{state}_filtered'
-
+- 📤 **Output**: 
+  - Final metadata: `patch_metadata/single_patch_metadata_{state}_filtered.csv`
+  - Final patches: `point_single_patches/{state}_filtered/<patch_id>.tif`
 ---
 
 #### 🧾 Summary
@@ -189,4 +190,12 @@ You can also execute each script individually for greater control, debugging, or
 python script_name.py config.yaml
 ```
 
+
+## 📦 Final Output Summary
+
+
+✅ **Refined Output**: After running the complete CAFOSat pipeline, you will obtain a well-structured set of outputs:  High-resolution image patches (e.g., 833×833 pixels) centered on refined or clustered CAFO infrastructure locations and Tabular metadata associated with each image patch, including geographic location, CAFO type, state, and matched image file.
+
+
+🔄 **Use Cases for Intermediate Outputs**: Additional outputs from the pipeline can support various downstream tasks. For instance, the merged_clustered.geojson file can be used to derive bounding boxes representing the spatial extent of complete CAFO facilities.
 
