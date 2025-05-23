@@ -18,7 +18,7 @@ CAFOSat captures a wide array of CAFO infrastructure and operations, supporting 
 - **Synthetic Subset**: Includes a manually validated set of synthetic images to support testing of domain generalization and augmentation robustness. (~6500 Patches)
 - **Hard Negatives**: Carefully curated negative samples that closely resemble CAFO environments but do not contain actual facilities — ideal for training discriminative models.(~23k Patches)
 
-🔍 To explore the dataset, its features, and see an example dataloader, please refer to the [`data_loader`](../data_loader).
+🔍 To explore the dataset, its features, and see an example dataloader, please refer to the [`data_loader`](https://github.com/oishee-hoque/CAFOSat/tree/main/data_loader).
 
 ## 📁 Dataset Structure
 
