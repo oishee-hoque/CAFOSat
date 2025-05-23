@@ -48,7 +48,7 @@ latitude,longitude,state
 ```
 🔍 See example CSVs in: [`/datas/input_csvs`](../datas/input_csvs)
 
-## 🗂 Output Directory Structure: `naip_downloads/`
+### 🗂 Output Directory Structure: `naip_downloads/`
 
 After running the `download_NAIP.py` script, the NAIP imagery and metadata will be saved in the `naip_downloads/` folder.
 
@@ -93,17 +93,17 @@ run_flags:
   cluster: true
   single_patch_filtered: true
 ```
-#### ✅ Required Columns in the CSV
+#### 📝 Required Columns in the CSV
 
 These columns must match the keys specified under `match_point:` in your `config.yaml` to begin running the pipeline.
 
 | Column Name (in CSV) | Description                                                    | Example            |
 |----------------------|----------------------------------------------------------------|--------------------|
-| `CAFO_UNIQUE_ID`     | A unique identifier for each CAFO or location                 | `US123456`         |
-| `x`                  | Longitude of the point (in decimal degrees)                   | `-93.6111`         |
-| `y`                  | Latitude of the point (in decimal degrees)                    | `42.0322`          |
-| `STATE`              | Two-letter state code for the location                        | `IA`               |
-| `CAFO_TYPE`          | Category/type of the CAFO (e.g., Swine, Poultry, Dairy, etc.) | `Swine`            |
+| `CAFO_UNIQUE_ID`     | A unique identifier for each CAFO or location                  | `US123456`         |
+| `x`                  | Longitude of the point (EPSG:4326)                             | `-93.6111`         |
+| `y`                  | Latitude of the point (EPSG:4326)                              | `42.0322`          |
+| `STATE`              | location code                                                  | `IA`               |
+| `CAFO_TYPE`          | Category/type of the CAFO (e.g., Swine, Poultry, Dairy, etc.)  | `Swine`            |
 
 ⚠️ **Note:**  
 The column names in your CSV must exactly match the values you provide in the `config.yaml` under `match_point`. These are not optional.
@@ -111,4 +111,82 @@ The column names in your CSV must exactly match the values you provide in the `c
 ---
 
 ### 🛠 Option 2: Run Each Script Manually
+
+You can also execute each script individually for greater control, debugging, or selective step execution. Below is a breakdown of what each script does and its inputs/outputs.
+
+---
+
+#### `matchPointToImage.py`
+
+🔍 Matches geospatial CAFO points to downloaded NAIP imagery tiles based on spatial overlap.
+
+- 📥 **Input**: Geolocated point CSV
+- 📤 **Output**: `point_image_mapping.csv`, `unmatched_points.csv`
+
+---
+
+#### `multiplePatchGeneration.py`
+
+📦 Generates multiple image patches per matched NAIP tile, typically for data augmentation or tile sampling.
+
+- 📥 **Input**: `point_image_mapping.csv`
+- 📤 **Output**: multiple patches around given geo location - 'multi_patch_metadata_{state}.csv', 'point_multi_patches/{state}/<patch_id>.tif'
+
+---
+
+#### `singlePatchGeneration.py`
+
+🎯 Creates a single, center-aligned patch (e.g., 833×833 pixels) for each matched point.
+
+- 📥 **Input**: `point_image_mapping.csv`
+- 📤 **Output**: One `.tif` patch per given geo location: 'point_single_patches/{state}/<patch_id>.tif'
+
+---
+
+#### `refiningCoords.py`
+
+🧭 Refines coordinates for CAFO infrastructure detection using auxiliary logic (e.g., masks, object proposals).
+
+- 📥 **Input**: trained cafo classifier (you can download our trained model here and use it), multi_patch_metadata_csv, multi_patces
+- 📤 **Output**: Refined coordinates and updated metadata: 'refined_coords_csvs/cafo_cam_projected_centers_{state}.csv', 'cam_polygons/{state}'
+
+---
+
+#### `clustering.py`
+
+🔗 Clusters detected infrastructure elements (e.g., barns, lagoons) into coherent groups representing full CAFO facilities.
+
+- 📥 **Input**:  Refined coordinates and updated metadata, 
+- 📤 **Output**: Clustered `GeoDataFrame` and associated metadata: cam_polygons/filtered_cam_polygons_{state}.geojson, cam_polygons/filtered_cam_polygons_{state}.csv
+
+---
+
+#### `singlePatchGenerationfiltered.py`
+
+🧹 Generates a **filtered** version of patches using refined coordinates or clustered results.
+
+- 📥 **Input**: Refined or clustered coordinates
+- 📤 **Output**: Filtered final patch set: '/patch_metadata/single_patch_metadata_{state}_filtered.csv', '/point_single_patches/{state}_filtered'
+
+---
+
+#### 🧾 Summary
+
+| Script                           | Description                               | Depends On                        |
+|----------------------------------|-------------------------------------------|-----------------------------------|
+| `matchPointToImage.py`           | Match points to imagery tiles             | Point CSV, NAIP `.tif` files      |
+| `multiplePatchGeneration.py`     | Generate multiple patches per image       | `point_image_mapping.csv`         |
+| `singlePatchGeneration.py`       | Create single center-aligned patches      | `point_image_mapping.csv`         |
+| `refiningCoords.py`              | Refine patch center coordinates           | Patches, model output             |
+| `clustering.py`                  | Cluster detected infrastructure           | Refined coordinates               |
+| `singlePatchGenerationfiltered.py` | Generate final filtered patches         | Clustering/refinement outputs     |
+
+---
+
+📝 You can run any script independently by passing your `config.yaml`:
+
+```bash
+python script_name.py config.yaml
+```
+
 
