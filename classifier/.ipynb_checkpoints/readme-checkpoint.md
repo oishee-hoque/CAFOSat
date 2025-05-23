@@ -1,3 +1,13 @@
+### 4️⃣ Dependencies
+
+- `torchvision` – for model backbones like ResNet  
+- `pytorch-lightning` – for managing training and logging  
+- `scikit-learn` – for evaluation metrics  
+- `tqdm`, `pandas`, `numpy`, etc. – for data handling and progress tracking
+
+✅ All of these are already included in the `requirements.txt` file in data_processing.
+
+
 ## 🧠 Classifier Training
 
 This module supports both **binary classification** (e.g., CAFO vs. non-CAFO) and **multi-class classification** (e.g., different CAFO types).
@@ -78,8 +88,4 @@ The input dataset should be in **JSON format** and follow the same structure use
 
 ### 🔧 Update Config
 
-Before running evaluation, update your `config` to point to the correct evaluation dataset:
-
-```yaml
-# === Data ===
-data_path: path/to/your_eval_dataset.json  # e.g., cafosat_set7_training.json or meter_ml.json
+🔧 Update Config: Before running evaluation, update `config` in the files to point to the correct evaluation dataset.
