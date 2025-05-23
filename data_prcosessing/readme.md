@@ -46,7 +46,7 @@ latitude,longitude,state
 34.0522,-118.2437,CA
 ...
 ```
-🔍 See example CSVs in: [`/data/input_csvs`](../data/input_csvs)
+🔍 See example CSVs in: [`/datas/input_csvs`](../datas/input_csvs)
 
 ## 🗂 Output Directory Structure: `naip_downloads/`
 
@@ -65,4 +65,50 @@ naip_downloads/
         ├── point_to_image_mapping.csv
         └── failed_download_points_unique_parallel.csv
 ```
+
+## ⚙️ Step 3: Pipeline Execution Options
+
+You can run the entire CAFOSat pipeline using a single wrapper script **or** execute each step individually depending on your needs.
+
+---
+
+### ✅ Option 1: Run the Full Pipeline
+
+Use the `run_pipeline.py` script to execute all processing stages in sequence, based on which steps are enabled in your `config.yaml`.
+
+```bash
+python run_pipeline.py config.yaml
+```
+
+#### 🔧 Required Configuration
+
+Make sure your `config.yaml` contains a `run_flags` section to control which steps of the pipeline to execute.
+
+```yaml
+run_flags:
+  match_point_to_image: true
+  multi_patch_generate: true
+  single_patch_generate: true
+  refine_coords: true
+  cluster: true
+  single_patch_filtered: true
+```
+#### ✅ Required Columns in the CSV
+
+These columns must match the keys specified under `match_point:` in your `config.yaml` to begin running the pipeline.
+
+| Column Name (in CSV) | Description                                                    | Example            |
+|----------------------|----------------------------------------------------------------|--------------------|
+| `CAFO_UNIQUE_ID`     | A unique identifier for each CAFO or location                 | `US123456`         |
+| `x`                  | Longitude of the point (in decimal degrees)                   | `-93.6111`         |
+| `y`                  | Latitude of the point (in decimal degrees)                    | `42.0322`          |
+| `STATE`              | Two-letter state code for the location                        | `IA`               |
+| `CAFO_TYPE`          | Category/type of the CAFO (e.g., Swine, Poultry, Dairy, etc.) | `Swine`            |
+
+⚠️ **Note:**  
+The column names in your CSV must exactly match the values you provide in the `config.yaml` under `match_point`. These are not optional.
+
+---
+
+### 🛠 Option 2: Run Each Script Manually
 

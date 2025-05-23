@@ -1,7 +1,7 @@
 # ========== Download NAIP Imagery ==========
 download:
     location_csv: ./datas/input_csvs ## path to the csv containing location information
-    naip_root: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/downloaded_naip_full_v2 ## base path where the images will be downloaded
+    naip_root: ./datas/naip_downloads ## base path where the images will be downloaded
     lat_col: y  ##name of the lat columns in your csv
     lon_col: x ##name of the lon columns in your csv
     location_column: STATE ##name of the location columns in your csv
@@ -13,9 +13,9 @@ download:
 
 # ========== GENERAL ==========
 state: DE
-naip_root: /project/biocomplexity/gza5dr/CAFO/exp_v2/downloaded_naip_full_v2/
-location_csv: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/input_csvs/{state}_processed.csv ## path to the csv containing location information
-point_image_mapping_csv:  /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/CAFOSat/datas/point_mapping_to_images_csvs/point_image_mapping_by_{state}.csv
+naip_root: ./datas/naip_downloads
+location_csv: ./datas/input_csvs/{state}_processed.csv ## path to the csv containing location information
+point_image_mapping_csv:  ./datas/point_mapping_to_images_csvs/point_image_mapping_by_{state}.csv
 
 
 # ========== Match Point to Image ==========
