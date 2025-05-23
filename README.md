@@ -54,13 +54,6 @@ CAFOSat/
 - `metadata/`: CSV files containing metadata for both real and augmented patches (e.g., geolocation, type, annotations, bounding box, weak geolocation, refined geolocation etc).
 
 
-## 🧠 Annotation Pipeline
-
-CAFOSat is built using a **human-in-the-loop scalable annotation framework** designed to refine weakly annotated geolocation data into **strong, high-fidelity labels**. This pipeline:
-- Reduces manual annotation effort through iterative refinement.
-- Supports extensibility to other domains or regions.
-- Enables continuous dataset expansion with minimal overhead.
-
 ## 🛠️ Create Your Own Dataset
 
 To create your own dataset using the CAFOSat annotation and processing pipeline, follow the guide in the repository below:
@@ -75,14 +68,6 @@ This includes:
 - Synthetic sample creation
 
 🧠 Train your own classifier: [See classifier README](classifier/README.md)
-
-
-## 🔬 Potential Applications
-
-- CAFO Detection & Localization
-- Infrastructure Segmentation
-- Environmental Risk Assessment
-- Synthetic-to-Real Domain Adaptation
 
 
 
