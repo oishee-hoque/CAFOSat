@@ -1,6 +1,8 @@
 # 📦 CAFOSat Data Loader
 
-This [module](https://github.com/oishee-hoque/CAFOSat/tree/main/data_loader/dataloader_v1.ipynb) provides tools and examples to download, load, and explore the [CAFOSat dataset](https://huggingface.co/datasets/oishee3003/CAFOSat) — a high-resolution remote sensing dataset for identifying Confined Animal Feeding Operations (CAFOs) across the United States.
+This [module](https://github.com/oishee-hoque/CAFOSat/tree/main/data_loader/dataloader_v1.ipynb) provides tools and examples to download, load, and explore the [CAFOSat dataset](https://huggingface.co/datasets/oishee3003/CAFOSat).
+
+![Example Image](example_image.PNG)
 
 ---
 
@@ -33,7 +35,9 @@ mv CAFOSat CAFOSat_data
 
 ### 🔗 Option 2: Load the Full Dataset (Streaming or Cached)
 
+
 ```python
+#Example 1:
 from datasets import load_dataset
 
 # Load the full CAFOSat dataset
@@ -43,6 +47,7 @@ ds = load_dataset("oishee3003/CAFOSat")
 ---
 
 ```python
+#Example 2:
 from huggingface_hub import hf_hub_download
 
 data_path = hf_hub_download(
@@ -57,6 +62,7 @@ print(f"Dataset downloaded to: {data_path}")
 ---
 
 ```python
+#Example 3:
 from datasets import load_dataset
 
 # Load a locally downloaded .tar.gz file
@@ -104,7 +110,7 @@ Choose which version of the dataset to load:
 - `augmented`: Includes augmented image patches
 ---
 
-![Example Image](example_image.PNG)
+
 
 
 
