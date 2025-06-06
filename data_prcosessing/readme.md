@@ -234,7 +234,7 @@ python prompt_based_DataAugmentation.py
 ```
 > 📁 Make sure all scripts are located in the appropriate directory with required dependencies installed.
 
-## 🚫 Optional: Negative Sample Generation
+## 🧪 Optional: Negative Sample Generation
 
 Change in file paths where necessary.
 
