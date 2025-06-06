@@ -1,3 +1,9 @@
+## 🧠 Classifier Training
+
+This module supports both **binary classification** (e.g., CAFO vs. non-CAFO) and **multi-class classification** (e.g., different CAFO types).
+
+---
+
 ### 🛠️ Dependencies
 
 - `torchvision` – for model backbones like ResNet  
@@ -6,13 +12,6 @@
 - `tqdm`, `pandas`, `numpy`, etc. – for data handling and progress tracking
 
 ✅ All of these are already included in the `requirements.txt` file in data_processing.
-
-
-## 🧠 Classifier Training
-
-This module supports both **binary classification** (e.g., CAFO vs. non-CAFO) and **multi-class classification** (e.g., different CAFO types).
-
----
 
 #### ⚙️ Configuration
 

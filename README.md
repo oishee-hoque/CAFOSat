@@ -63,4 +63,4 @@ This includes:
 - Annotate Infrastructure 
 - Synthetic sample creation
 
-🧠 Train your own classifier: [See classifier README](classifier/README.md)
+🧠 Train your own classifier: [CAFOSat/classifier](https://github.com/oishee-hoque/CAFOSat/tree/main/classifier)
