@@ -11,7 +11,7 @@
 ## 🗺️ CAFOSAT: Dataset Summary
 🔗 CAFOSat is hosted on the Hugging Face Hub: https://huggingface.co/datasets/oishee3003/CAFOSat
 
-🔍 Explore the dataset, its features, and an example dataloader: https://github.com/oishee-hoque/CAFOSat/tree/main/data_loader
+🔍 Explore the dataset, its features, and an example dataloader: [CAFOSat/data_loader](https://github.com/oishee-hoque/CAFOSat/tree/main/data_loader)
 
 CAFOSat is a large-scale, high-resolution dataset designed to support infrastructure-aware mapping of Concentrated Animal Feeding Operations (CAFOs) across the United States. The dataset spans **2,064 counties** and contains over **45,000 image patches** extracted from NAIP imagery, each at **833×833 pixels** with a **0.3-0.6m spatial resolution**.
 
