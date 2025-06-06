@@ -4,48 +4,36 @@
 
 
 ## 🗺️ CAFOSAT: Dataset Summary
+🔗 CAFOSat is hosted on the Hugging Face Hub: https://huggingface.co/datasets/oishee3003/CAFOSat
+🔍 To explore the dataset, its features, and to see an example dataloader: [`data_loader`](https://github.com/oishee-hoque/CAFOSat/tree/main/data_loader).
 
 CAFOSat is a large-scale, high-resolution dataset designed to support infrastructure-aware mapping of Concentrated Animal Feeding Operations (CAFOs) across the United States. The dataset spans **2,064 counties** and contains over **45,000 image patches** extracted from NAIP imagery, each at **833×833 pixels** with a **0.3-0.6m spatial resolution**.
-
-CAFOSat captures a wide array of CAFO infrastructure and operations, supporting advanced remote sensing, environmental monitoring, and machine learning research.
 
 ## 📦 Key Features
 
 - **Diverse Coverage**: Images span six major CAFO types and are sourced from a combination of **federal, state, and academic datasets**, ensuring diverse geographic and operational representation.
 - **High-Quality Annotations**:
-  - **Facility-Level Labels**: Each patch includes CAFO-type classifications.
+  - **Facility-Level Labels**: Each image patch includes a CAFO classification label and a bounding box localizing the CAFO infrastructure within the patch.
   - **Infrastructure-Level Labels**: Detailed manual annotations for structures such as barns, manure lagoons, feed storage, and more for ~3000 CAFO Location.
 - **Synthetic Subset**: Includes a manually validated set of synthetic images to support testing of domain generalization and augmentation robustness. (~6500 Patches)
 - **Hard Negatives**: Carefully curated negative samples that closely resemble CAFO environments but do not contain actual facilities — ideal for training discriminative models.(~23k Patches)
 
-🔍 To explore the dataset, its features, and see an example dataloader, please refer to the [`data_loader`](https://github.com/oishee-hoque/CAFOSat/tree/main/data_loader).
 
-## 📡 CAFOSat Dataset Access
-
-CAFOSat is hosted on the Hugging Face Hub:  
-🔗 https://huggingface.co/datasets/oishee3003/CAFOSat
-
-
-### 📁 Dataset Structure
+## 📁 Dataset Structure
 
 ```text
 CAFOSat/
-├── {state}/
-│   └── <patch_file>.tif
 ├── {state_filtered}
 │   └── <patch_file>.tif
 ├── barn/
-│   └── <patch_file>.png
+│   └── <patch_file>.tif
 ├── manure_pond/
-│   └── <patch_file>.png
-└── other/
-│   └── <patch_file>.png
-│
+│   └── <patch_file>.tif
+├── others/
+│   └── <patch_file>.tif
 ├── negative_sample/
 │   └── <patch_file>.tif
-│
-├── cafosat.csv
-│  
+├── CAFOSat.csv
 ```
 
 #### 📝 Description
@@ -56,7 +44,7 @@ CAFOSat/
 - `cafosat.csv`: CSV files containing metadata for both real and augmented patches (e.g., geolocation, type, annotations, bounding box, weak geolocation, refined geolocation etc).
 
 
-## 🛠️ Create Your Own Dataset
+## 🛠️ Create Your Own Dataset or Reproduce CAFOSat
 
 To create your own dataset using the CAFOSat annotation and processing pipeline, follow the guide in the repository below:
 
@@ -70,7 +58,3 @@ This includes:
 - Synthetic sample creation
 
 🧠 Train your own classifier: [See classifier README](classifier/README.md)
-
-
-
-
