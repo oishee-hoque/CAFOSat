@@ -18,6 +18,8 @@ This module supports both **binary classification** (e.g., CAFO vs. non-CAFO) an
 All training settings are controlled via a YAML config file located in the `config/` directory.  
 Example: `config/classifier_config_iowa.yaml`
 
+---
+
 ### 🗂 Dataset Selection
 
 We provide multiple training splits for experimentation and evaluation:
@@ -33,7 +35,7 @@ We provide multiple training splits for experimentation and evaluation:
 
 These represent different randomized or stratified splits of the CAFOSat dataset.
 
-##### 📥 Download Required
+#### 📥 Download Required
 We also support training on additional datasets beyond CAFOSat, such as:
 
 - `nc_training_data.json` – from the NC-CAFO dataset
@@ -46,7 +48,7 @@ To use these datasets, please first **download the raw data** from their respect
 
 ---
 
-### 🔧 How to Use a Dataset Split
+#### 🔧 How to Use a Dataset Split
 
 To use any of the above splits, update the `data_path` field in your config file:
 
@@ -55,16 +57,16 @@ To use any of the above splits, update the `data_path` field in your config file
 data_path: /project/biocomplexity/gza5dr/CAFO/exp_v2/main_experiments/cafo_classification/datas/dataset/cafosat_set1_training.json
 ```
 
-#### ▶️ Running Binary Classifier
+### ▶️ Running Binary Classifier
 
 ```bash
-python classifier_train.py --config_file config/classifier_config_set1.yaml
+python classifier/classifier_train.py --config_file config/classifier_config_set1.yaml
 ```
 
-#### ▶️ Running Binary Classifier
-```bash
-python multi_train.py --config_file config/classifier_config_set1.yaml
+### ▶️ Running Multiclass Classifier
 
+```bash
+python classifier/multi_train.py --config_file config/classifier_config_set1.yaml
 ```
 
 
@@ -89,7 +91,7 @@ The input dataset should be in **JSON format** and follow the same structure use
 🔧 Update Config: Before running evaluation, update `config` in the files to point to the correct evaluation dataset.
 
 
-## 📊 Model Performance Comparison
+### 📊 Model Performance Comparison
 
 The following results were obtained by training and evaluating various backbone models on the **CAFOSat** dataset using two validation sets:
 
@@ -108,7 +110,7 @@ These sets represent distinct splits designed to test the models’ generalizati
 
 ---
 
-### 📈 Results Table
+### 📈 Results
 
 | Model        | Acc. (Set 1) | F1 (Set 1) | mAP (Set 1) | Acc. (Set 2) | F1 (Set 2) | mAP (Set 2) |
 |--------------|--------------|------------|-------------|--------------|------------|-------------|
