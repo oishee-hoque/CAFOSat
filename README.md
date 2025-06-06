@@ -1,4 +1,11 @@
 <h1 align="center">CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery</h1>
+<p align="center">
+  <a href="https://huggingface.co/datasets/oishee3003/CAFOSat">
+    <img src="https://huggingface.co/datasets-assets/huggingface-logo.svg" alt="Hugging Face" height="30"/>
+    <br/>
+  </a>
+</p>
+
 
 ![CAFOSat Overview](figures/Cafo_Pipeline_1.jpg)
 
