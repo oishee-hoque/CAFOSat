@@ -224,6 +224,15 @@ Using the notebook, you can:
 ---
 
 ## 🧪 Optional: Synthetic Data Generation
+To execute the infrastructure detection and data augmentation modules, run the following scripts:
+
+```bash
+python prompt_based_BarnDetection.py
+python prompt_based_ManurePondDetection.py
+python prompt_based_OtherInfrastructure.py
+python prompt_based_DataAugmentation.py
+```
+> 📁 Make sure all scripts are located in the appropriate directory with required dependencies installed.
 
 ## 🚫 Optional: Negative Sample Generation
 
