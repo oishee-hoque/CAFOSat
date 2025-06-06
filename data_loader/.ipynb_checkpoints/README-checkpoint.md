@@ -2,7 +2,10 @@
 
 This [module](https://github.com/oishee-hoque/CAFOSat/tree/main/data_loader/dataloader_v1.ipynb) provides tools and examples to download, load, and explore the [CAFOSat dataset](https://huggingface.co/datasets/oishee3003/CAFOSat).
 
-![Example Image](example_image.PNG)
+<p align="center">
+  <img src="example_image.PNG" alt="Example Image" width="500"/>
+</p>
+
 
 ---
 
@@ -100,8 +103,8 @@ Specify the type of information to load from the dataset:
 
 ---
 
-### 📊 `dataset_name` Options
-Choose which version of the dataset to load:
+### 📊 `dataset_name` Options (see paper for reference)
+Choose which split of the dataset to load:
 
 - `verified`: Only human-verified CAFO labels
 - `set1`: Custom training/validation/test split 1
